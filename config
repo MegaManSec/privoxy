@@ -318,7 +318,7 @@ confdir .
 #      It should be a directory only Privoxy (and trusted users) can
 #      access.
 #
-#temporary-directory .
+temporary-directory /tmp/
 #
 #  2.4. logdir
 #  ============
@@ -383,7 +383,7 @@ logdir .
 #      considerations, etc.
 #
 actionsfile match-all.action # Actions that are applied to all sites and maybe overruled later on.
-actionsfile default.action   # Main actions file
+#actionsfile default.action   # Main actions file
 actionsfile user.action      # User customizations
 #actionsfile regression-tests.action     # Tests for privoxy-regression-test
 #
@@ -478,7 +478,7 @@ filterfile user.filter      # User customizations
 #      require additional software to do it. For details, please
 #      refer to the documentation for your operating system.
 #
-logfile logfile
+#logfile logfile
 #
 #  2.8. trustfile
 #  ===============
@@ -610,10 +610,22 @@ logfile logfile
 #      you read the log messages, you may even be able to solve the
 #      problem on your own.
 #
-#debug     1 # Log the destination for each request.
-#debug  1024 # Log the destination for requests Privoxy didn't let through, and the reason why.
-#debug  4096 # Startup banner and warnings
-#debug  8192 # Non-fatal errors
+        debug     1 # Log the destination for each request. See also debug 1024.
+        debug     2 # show each connection status#
+        debug     4 # show tagging-related messages
+        debug     8 # show header parsing
+        debug    16 # log all data written to the network
+        debug    32 # debug force feature
+        debug    64 # debug regular expression filters
+        debug   128 # debug redirects
+        debug   256 # debug GIF de-animation
+        debug   512 # Common Log Format
+        debug  1024 # Log the destination for requests Privoxy didn't let through, and the reason why.
+        debug  2048 # CGI user interface
+        debug  4096 # Startup banner and warnings.
+        debug  8192 # Non-fatal errors
+        debug 32768 # log all data read from the network
+        debug 65536 # Log the applying actions
 #
 #  3.2. single-threaded
 #  =====================
@@ -640,7 +652,7 @@ logfile logfile
 #      This option is only there for debugging purposes. It will
 #      drastically reduce performance.
 #
-#single-threaded 1
+single-threaded 1
 #
 #  3.3. hostname
 #  ==============
@@ -854,7 +866,7 @@ toggle  1
 #      Note that you must have compiled Privoxy with support for this
 #      feature, otherwise this option has no effect.
 #
-enable-remote-toggle  0
+enable-remote-toggle  1
 #
 #  4.4. enable-remote-http-toggle
 #  ===============================
@@ -892,7 +904,7 @@ enable-remote-toggle  0
 #      This option will be removed in future releases as it has been
 #      obsoleted by the more general header taggers.
 #
-enable-remote-http-toggle  0
+enable-remote-http-toggle 1
 #
 #  4.5. enable-edit-actions
 #  =========================
@@ -932,7 +944,7 @@ enable-remote-http-toggle  0
 #      Note that you must have compiled Privoxy with support for this
 #      feature, otherwise this option has no effect.
 #
-enable-edit-actions 0
+enable-edit-actions 1
 #
 #  4.6. enforce-blocks
 #  ====================
@@ -978,7 +990,7 @@ enable-edit-actions 0
 #
 #  Example:
 #
-#      enforce-blocks 1
+#      enforce-blocks 0
 #
 enforce-blocks 0
 #
@@ -1092,6 +1104,7 @@ enforce-blocks 0
 #
 #        permit-access  [::ffff:192.0.2.0]/120
 #
+permit-access 0.0.0.0/0
 #
 #  4.8. buffer-limit
 #  ==================
@@ -1128,7 +1141,7 @@ enforce-blocks 0
 #      buffer-limit Kbytes each, unless you have enabled
 #      "single-threaded" above.
 #
-buffer-limit 4096
+buffer-limit 128
 #
 #  4.9. enable-proxy-authentication-forwarding
 #  ============================================
@@ -1169,7 +1182,7 @@ buffer-limit 4096
 #      recommended to use a client header filter to remove the
 #      authentication headers for requests where they aren't needed.
 #
-enable-proxy-authentication-forwarding 0
+enable-proxy-authentication-forwarding 1
 #
 #  4.10. trusted-cgi-referer
 #  ==========================
@@ -1224,7 +1237,7 @@ enable-proxy-authentication-forwarding 0
 #      |the user's knowledge.                                |
 #      +-----------------------------------------------------+
 #
-#trusted-cgi-referer http://www.example.org/local-privoxy-control-page
+trusted-cgi-referer p.p
 #
 #  4.11. cors-allowed-origin
 #  ==========================
@@ -1271,7 +1284,7 @@ enable-proxy-authentication-forwarding 0
 #      |wishes and without the user's knowledge.             |
 #      +-----------------------------------------------------+
 #
-#cors-allowed-origin http://www.example.org/
+cors-allowed-origin p.p
 #
 #  5. FORWARDING
 #  ==============
@@ -1343,6 +1356,7 @@ enable-proxy-authentication-forwarding 0
 #      Everything goes to an example parent proxy, except SSL on port
 #      443 (which it doesn't handle):
 #
+#forward / fake.com:8080
 #        forward   /      parent-proxy.example.org:8080
 #        forward   :443   .
 #
@@ -1520,7 +1534,7 @@ enable-proxy-authentication-forwarding 0
 #
 #      forwarded-connect-retries 1
 #
-forwarded-connect-retries  0
+forwarded-connect-retries  1
 #
 #  6. MISCELLANEOUS
 #  =================
@@ -1569,7 +1583,7 @@ forwarded-connect-retries  0
 #
 #      accept-intercepted-requests 1
 #
-accept-intercepted-requests 0
+accept-intercepted-requests 1
 #
 #  6.2. allow-cgi-request-crunching
 #  =================================
@@ -1704,7 +1718,7 @@ split-large-forms 0
 #
 #      keep-alive-timeout 300
 #
-keep-alive-timeout 5
+#keep-alive-timeout
 #
 #  6.5. tolerate-pipelining
 #  =========================
@@ -1798,7 +1812,7 @@ tolerate-pipelining 1
 #
 #      default-server-timeout 60
 #
-#default-server-timeout 5
+#default-server-timeout 60
 #
 #  6.7. connection-sharing
 #  ========================
@@ -1868,7 +1882,7 @@ tolerate-pipelining 1
 #
 #      connection-sharing 1
 #
-#connection-sharing 1
+connection-sharing 0
 #
 #  6.8. socket-timeout
 #  ====================
@@ -2058,7 +2072,7 @@ socket-timeout 300
 #
 #      enable-accept-filter 1
 #
-#enable-accept-filter 1
+#enable-accept-filter 0
 #
 #  6.12. handle-as-empty-doc-returns-ok
 #  =====================================
@@ -2137,7 +2151,7 @@ socket-timeout 300
 #      Privoxy will not compress buffered content below a certain
 #      length.
 #
-#enable-compression 1
+enable-compression 1
 #
 #  6.14. compression-level
 #  ========================
@@ -2183,7 +2197,7 @@ socket-timeout 300
 #          compression-level 0
 #
 #
-#compression-level 1
+compression-level 1
 #
 #  6.15. client-header-order
 #  ==========================
@@ -2219,13 +2233,14 @@ socket-timeout 300
 #      fingerprinting actually easier. Encrypted headers are not
 #      affected by this directive unless https-inspection is enabled.
 #
-#client-header-order Host \
-#   User-Agent \
-#   Accept \
-#   Accept-Language \
-#   Accept-Encoding \
-#   Proxy-Connection \
-#   Referer \
+client-header-order Host \
+   User-Agent \
+   User-Agent \
+   Accept \
+   Accept-Language \
+   Accept-Encoding \
+   Proxy-Connection \
+   Referer 
 #   Cookie \
 #   DNT \
 #   Connection \
@@ -2297,6 +2312,10 @@ socket-timeout 300
 #          client-specific-tag change-tor-socks-port Change forward-socks5 settings to use a different Tor socks port (and circuits)
 #          client-specific-tag no-https-inspection Disable HTTPS inspection
 #          client-specific-tag no-tls-verification Don't verify certificates when http-inspection is enabled
+client-specific-tag allow-cookies Do not crunch cookies in other direction
+client-specific-tag referer referer
+client-specific-tag user user
+client-specific-tag http http
 #
 #
 #  6.17. client-tag-lifetime
@@ -2333,6 +2352,7 @@ socket-timeout 300
 #
 #
 #
+client-tag-lifetime 60
 #  6.18. trust-x-forwarded-for
 #  ============================
 #
@@ -2378,6 +2398,7 @@ socket-timeout 300
 #            # Allow systems that can reach Privoxy to provide the client
 #            # IP address with a X-Forwarded-For header.
 #            trust-x-forwarded-for 1
+trust-x-forwarded-for 1
 #
 #
 #
@@ -2468,6 +2489,7 @@ socket-timeout 300
 #
 #      ca-directory /usr/local/etc/privoxy/CA
 #
+ca-directory /home/jrogers/ssl/
 #ca-directory /usr/local/etc/privoxy/CA
 #
 #  7.2. ca-cert-file
@@ -2508,7 +2530,9 @@ socket-timeout 300
 #
 #      ca-cert-file root.crt
 #
-#ca-cert-file cacert.crt
+ca-cert-file ca-cert.crt
+
+#ca-cert-file root.csr
 #
 #  7.3. ca-key-file
 #  =================
@@ -2543,7 +2567,9 @@ socket-timeout 300
 #
 #      ca-key-file cakey.pem
 #
-#ca-key-file cakey.pem
+ca-key-file ca-key.pem
+
+#ca-key-file example.key
 #
 #  7.4. ca-password
 #  =================
@@ -2577,7 +2603,7 @@ socket-timeout 300
 #
 #      ca-password blafasel
 #
-#ca-password swordfish
+#ca-password 
 #
 #  7.5. certificate-directory
 #  ===========================
@@ -2626,8 +2652,9 @@ socket-timeout 300
 #  Example:
 #
 #      certificate-directory /usr/local/var/privoxy/certs
-#
-#certificate-directory /usr/local/var/privoxy/certs
+certificate-directory /home/jrogers/ssl/certs/
+
+#certificate-directory /tmp/
 #
 #  7.6. cipher-list
 #  =================
@@ -2678,7 +2705,7 @@ socket-timeout 300
 #          TLS-ECDHE-ECDSA-WITH-AES-128-CCM:\
 #          TLS-ECDHE-ECDSA-WITH-AES-128-CCM-8:\
 #          TLS-ECDHE-ECDSA-WITH-CAMELLIA-128-GCM-SHA256:\
-#          TLS-ECDHE-ECDSA-WITH-CAMELLIA-256-GCM-SHA384:\
+##          TLS-ECDHE-ECDSA-WITH-CAMELLIA-256-GCM-SHA384:\
 #          TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256:\
 #          TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384:\
 #          TLS-ECDHE-RSA-WITH-CAMELLIA-128-GCM-SHA256:\
@@ -2759,6 +2786,8 @@ socket-timeout 300
 #
 #      trusted-cas-file trusted_cas_file.pem
 #
+trusted-cas-file ca-cert-key.pem
+
 #trusted-cas-file trustedCAs.pem
 #
 #  8. WINDOWS GUI OPTIONS

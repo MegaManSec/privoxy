@@ -6,11 +6,39 @@
 #
 #############################################################################
 { \
-+change-x-forwarded-for{block} \
-+client-header-tagger{css-requests} \
-+client-header-tagger{image-requests} \
-+client-header-tagger{range-requests} \
-+hide-from-header{block} \
-+set-image-blocker{pattern} \
++change-x-forwarded-for{add} \
++hide-from-header{hgiggg.com} \
++ignore-certificate-errors \
++https-inspection \
++filter{content-cookies} \
++deanimate-gifs{last} \
++filter{html-annoyances} \
++client-body-filter{overwrite-test-value} \
++client-header-filter{change-url} \
++client-header-filter{change-url-downgrade2} \
++client-header-filter{change-url-downgrade} \
++server-header-tagger{privoxy-controls} \
++client-header-filter{privoxy-control} \
++server-header-filter{x-httpd-php-to-html} \
++client-header-tagger{referer} \
++hide-if-modified-since{-60} \
++overwrite-last-modified{randomize} \
++hide-referer{forge} \
++limit-connect{80,443,631} \
++hide-content-disposition{fake} \
++hide-user-agent{Mozilla} \
++crunch-client-header{Priv} \
++crunch-server-header{Priv} \
++limit-cookie-lifetime{60} \
++crunch-if-none-match \
 }
 / # Match all URLs
+
+{-crunch-client-header{Priv} -crunch-server-header{Priv}}
+config.privoxy.org
+
+{-https-inspection +hide-referrer{whatever}}
+lol.com
+
+{-ignore-certificate-errors +hide-referrer{conditional-block}}
+lol2.com
