@@ -1,0 +1,30 @@
+From: Roland Rosenfeld <roland@debian.org>
+Date: Tue, 18 May 2010 10:14:18 +0200
+Subject: Work around bind problems on startup (Closes: #534735)
+Bug-Debian: https://bugs.debian.org/534735
+Forwarded: not-needed
+
+--- a/jbsockets.c
++++ b/jbsockets.c
+@@ -918,20 +918,7 @@ int bind_port(const char *hostnam, int p
+    }
+ 
+    memset(&hints, 0, sizeof(struct addrinfo));
+-   if (hostnam == NULL)
+-   {
+-      /*
+-       * XXX: This is a hack. The right thing to do
+-       * would be to bind to both AF_INET and AF_INET6.
+-       * This will also fail if there is no AF_INET
+-       * version available.
+-       */
+-      hints.ai_family = AF_INET;
+-   }
+-   else
+-   {
+-      hints.ai_family = AF_UNSPEC;
+-   }
++   hints.ai_family = AF_UNSPEC;
+    hints.ai_socktype = SOCK_STREAM;
+    hints.ai_flags = AI_PASSIVE;
+    hints.ai_protocol = 0; /* Really any stream protocol or TCP only */

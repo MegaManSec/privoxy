@@ -1,0 +1,17 @@
+From: Roland Rosenfeld <roland@debian.org>
+Date: Thu, 24 Jan 2013 17:40:51 +0100
+Subject: Replace all -- in man page by \-\- to make lintian happy.
+Forwarded: not-needed
+
+--- a/GNUmakefile.in
++++ b/GNUmakefile.in
+@@ -546,8 +546,7 @@ man: dok-release
+ 	perl -pi.bak -e "s/\[ /\[/g;s/á/\\\\['a]/g;s/é/\\\\['e]/g" $(MAN_PAGE); \
+ 	perl -pi.bak -e "s/ö/\\\\[:o]/g" $(MAN_PAGE); \
+ 	perl -pi.bak -e 's/([ {])-([a-z])/$$1\\-$$2/g' $(MAN_PAGE); \
+-	perl -pi.bak -e 's/ --([a-z])/ \\-\\-$$1/g' $(MAN_PAGE); \
+-	perl -pi.bak -e 's/\\fB--/\\fB\\-\\-/g' $(MAN_PAGE); \
++	perl -pi.bak -e 's/--/\\-\\-/g' $(MAN_PAGE); \
+ 	$(DB) ../privoxy-man-page.sgml && $(MV) -f $(MAN_PAGE) ../../../$(MAN_PAGE)
+ 
+ # For those with man2html ala RH7s.

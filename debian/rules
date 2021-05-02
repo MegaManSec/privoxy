@@ -1,0 +1,118 @@
+#!/usr/bin/make -f
+#
+# (c) 2002-2021 Roland Rosenfeld <roland@debian.org>
+#
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+#export DH_OPTIONS=-v
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+DEBDIR=`pwd`/debian/privoxy
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	autoheader
+	autoconf
+	dh_auto_configure -- \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--enable-zlib \
+		--enable-no-gifs \
+		--enable-external-filters \
+		--enable-extended-statistics \
+		--enable-pcre-host-patterns \
+		--with-mbedtls \
+		--with-brotli \
+		--with-docbook=/usr/share/sgml/docbook/stylesheet/dsssl/modular
+
+override_dh_auto_build:
+	$(MAKE)
+
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
+# 	preserve auto build documentation from source package:
+	tar cf debian/doc.tar README INSTALL AUTHORS doc/webserver privoxy.8
+	env -u LANG LC_ALL=C.UTF-8 $(MAKE) dok
+	rm -f doc/webserver/user-manual/*.bak
+	env -u LANG LC_ALL=C.UTF-8 $(MAKE) man
+	env -u LANG LC_ALL=C.UTF-8 $(MAKE) man2html
+endif
+
+override_dh_auto_clean:
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
+#	restore auto build documentation from source package:
+	[ ! -f debian/doc.tar ] || tar xf debian/doc.tar
+	rm -f debian/doc.tar
+endif
+	find doc/source -name \*.html | xargs -r rm -f
+	[ ! -f GNUmakefile ] || $(MAKE) clean
+	[ ! -f GNUmakefile ] || $(MAKE) distclean
+	rm -f configure config.h GNUmakefile
+	rm -rf obj
+	rm -f ActivityConsole.jar
+	rm -f src/java/org/privoxy/activityconsole/*.class
+	rm -f doc/source/ldp.dsl
+	rm -rf doc/source/temp
+	dh_clean
+
+override_dh_auto_install:
+	install -m 0755 privoxy $(DEBDIR)/usr/sbin/privoxy
+	sed -e 's/\(Sample Configuration File for Privoxy\).*/\1/;' < config \
+	    > $(DEBDIR)/usr/share/privoxy/config
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
+	echo "with doc"
+else
+#	use remote user-manual (default) on nodoc configuration:
+	sed -i 's/^user-manual/#user-manual/' \
+		$(DEBDIR)/usr/share/privoxy/config
+endif
+	install -m 0644 default.action $(DEBDIR)/etc/privoxy/default.action
+	install -m 0644 match-all.action $(DEBDIR)/etc/privoxy/match-all.action
+	install -m 0644 user.action $(DEBDIR)/etc/privoxy/user.action
+	install -m 0644 regression-tests.action \
+		$(DEBDIR)/etc/privoxy/regression-tests.action
+	install -m 0644 default.filter $(DEBDIR)/etc/privoxy/default.filter
+	install -m 0644 user.filter $(DEBDIR)/etc/privoxy/user.filter
+	install -m 0644 trust $(DEBDIR)/etc/privoxy/trust
+
+	install -m 0755 tools/privoxy-log-parser.pl \
+		$(DEBDIR)/usr/bin/privoxy-log-parser
+	pod2man tools/privoxy-log-parser.pl \
+		> $(DEBDIR)/usr/share/man/man1/privoxy-log-parser.1
+
+	install -m 0755 tools/privoxy-regression-test.pl \
+		$(DEBDIR)/usr/bin/privoxy-regression-test
+	pod2man tools/privoxy-regression-test.pl \
+		> $(DEBDIR)/usr/share/man/man1/privoxy-regression-test.1
+
+	cp -r templates $(DEBDIR)/etc/privoxy/
+	rm -f $(DEBDIR)/etc/privoxy/templates/*~
+
+#      Remove trailing spaces from config files:
+	find $(DEBDIR)/etc/privoxy -type f \
+	| xargs grep -l ' $$' \
+	| while read f; do \
+	    sed -e 's/  *$$//' < $$f > $$f.new; \
+	    mv -f $$f.new $$f; \
+	done
+
+override_dh_install:
+	dh_install
+	install -m0644 debian/apparmor/usr.sbin.privoxy \
+		$(DEBDIR)/etc/apparmor.d/
+	dh_apparmor --profile-name=usr.sbin.privoxy
+
+override_dh_installdocs:
+	dh_installdocs
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
+	(cd $(DEBDIR)/usr/share/doc/privoxy/; \
+	 mv privoxy-index.html index.html)
+	(cd $(DEBDIR)/usr/share/doc/privoxy/user-manual; ln -s '../p_doc.css')
+endif
+
+override_dh_perl:
+#	We only need perl-base:
+	dh_perl -d
