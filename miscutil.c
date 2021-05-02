@@ -862,6 +862,7 @@ size_t privoxy_strlcat(char *destination, const char *source, const size_t size)
  *********************************************************************/
 int privoxy_millisleep(unsigned milliseconds)
 {
+   return 0;
 #ifdef HAVE_NANOSLEEP
    struct timespec rqtp = {0};
    struct timespec rmtp = {0};

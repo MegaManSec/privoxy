@@ -537,33 +537,53 @@ int fuzz_server_header(struct client_state *csp, char *fuzz_input_file)
  * Returns     : Return value of the fuzzed function
  *
  *********************************************************************/
+__AFL_FUZZ_INIT();
 int process_fuzzed_input(char *fuzz_input_type, char *fuzz_input_file)
 {
    static struct client_state csp_stack_storage;
    struct client_state *csp;
 
-   csp = &csp_stack_storage;
-   csp->config = load_config();
-   run_loader(csp);
-   csp->config->buffer_limit = 4096 * 1024;
-   csp->config->receive_buffer_size = 4096;
+   struct configuration_spec *config;
 
-   /* In --stfu mode, these will be ignored ... */
+   config = load_config();
+   csp = &csp_stack_storage;
+   csp->config = config;
+
+   initialize_reusable_connections();
+   cgi_init_error_messages();
+
+   run_loader(csp);
+
    set_debug_level(LOG_LEVEL_ACTIONS|LOG_LEVEL_CONNECT|LOG_LEVEL_DEANIMATE|LOG_LEVEL_INFO|LOG_LEVEL_ERROR|LOG_LEVEL_RE_FILTER|LOG_LEVEL_HEADER|LOG_LEVEL_WRITING|LOG_LEVEL_RECEIVED);
+   csp->config->feature_flags |= RUNTIME_FEATURE_ACCEPT_INTERCEPTED_REQUESTS;
 
    csp->flags |= CSP_FLAG_FUZZED_INPUT;
    csp->flags |= CSP_FLAG_TOGGLED_ON;
-   csp->config->feature_flags |= RUNTIME_FEATURE_ACCEPT_INTERCEPTED_REQUESTS;
    csp->flags |= CSP_FLAG_ACTIVE;
    csp->server_connection.sfd = JB_INVALID_SOCKET;
 
 #ifdef FEATURE_CLIENT_TAGS
    csp->config->trust_x_forwarded_for = 1;
 #endif
-   initialize_reusable_connections();
-   cgi_init_error_messages();
+
    __AFL_INIT();
-   fuzz_modes[1].handler(csp, "-");
+   unsigned char *buf = __AFL_FUZZ_TESTCASE_BUF;
+   while(__AFL_LOOP(1000)) {
+
+      fflush_unlocked(stdin);
+      int len = __AFL_FUZZ_TESTCASE_LEN;
+      if(len >= (4096*1024)) continue;
+      for(int i=0; i < len; i++) {
+         ungetc((unsigned char)buf[len-i-1], stdin);
+      }
+
+      struct client_state csp_copy;
+      struct client_state *csp_copy_ptr = &csp_copy;
+      memcpy(csp_copy_ptr, csp, sizeof(struct client_state));
+
+      fuzz_modes[1].handler(csp_copy_ptr, "-");
+		continue;
+   }
 
    return 0;
 }
