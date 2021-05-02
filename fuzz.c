@@ -540,12 +540,11 @@ int fuzz_server_header(struct client_state *csp, char *fuzz_input_file)
 int process_fuzzed_input(char *fuzz_input_type, char *fuzz_input_file)
 {
    static struct client_state csp_stack_storage;
-   static struct configuration_spec config_stack_storage;
    struct client_state *csp;
-   int i;
 
    csp = &csp_stack_storage;
-   csp->config = &config_stack_storage;
+   csp->config = load_config();
+   run_loader(csp);
    csp->config->buffer_limit = 4096 * 1024;
    csp->config->receive_buffer_size = 4096;
 
@@ -553,34 +552,20 @@ int process_fuzzed_input(char *fuzz_input_type, char *fuzz_input_file)
    set_debug_level(LOG_LEVEL_ACTIONS|LOG_LEVEL_CONNECT|LOG_LEVEL_DEANIMATE|LOG_LEVEL_INFO|LOG_LEVEL_ERROR|LOG_LEVEL_RE_FILTER|LOG_LEVEL_HEADER|LOG_LEVEL_WRITING|LOG_LEVEL_RECEIVED);
 
    csp->flags |= CSP_FLAG_FUZZED_INPUT;
+   csp->flags |= CSP_FLAG_TOGGLED_ON;
    csp->config->feature_flags |= RUNTIME_FEATURE_ACCEPT_INTERCEPTED_REQUESTS;
+   csp->flags |= CSP_FLAG_ACTIVE;
+   csp->server_connection.sfd = JB_INVALID_SOCKET;
 
 #ifdef FEATURE_CLIENT_TAGS
    csp->config->trust_x_forwarded_for = 1;
 #endif
+   initialize_reusable_connections();
+   cgi_init_error_messages();
+   __AFL_INIT();
+   fuzz_modes[1].handler(csp, "-");
 
-   for (i = 0; i < SZ(fuzz_modes); i++)
-   {
-      if (strcmp(fuzz_modes[i].name, fuzz_input_type) == 0)
-      {
-         if (fuzz_modes[i].stdin_support &&
-            (strcmp(fuzz_input_type, "client-request") != 0) &&
-            (strcmp(fuzz_input_type, "server-response") != 0) &&
-            (strcmp(fuzz_input_type, "socks") != 0))
-         {
-            load_fuzz_input(csp, fuzz_input_file);
-         }
-         return (fuzz_modes[i].handler(csp, fuzz_input_file));
-      }
-   }
-
-   log_error(LOG_LEVEL_FATAL,
-      "Unrecognized fuzz type %s for input file %s. You may need --help.",
-      fuzz_input_type, fuzz_input_file);
-
-   /* Not reached. */
-   return 1;
-
+   return 0;
 }
 
 

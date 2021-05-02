@@ -883,7 +883,8 @@ static void send_crunch_response(struct client_state *csp, struct http_response 
       }
 
       /* Clean up and return */
-      if (cgi_error_memory() != rsp)
+//      if (cgi_error_memory() != rsp)
+      if(!(csp->config->feature_flags & RUNTIME_FEATURE_CGI_CRUNCHING))
       {
          free_http_response(rsp);
       }
@@ -1626,28 +1627,21 @@ extern int fuzz_chunked_transfer_encoding(struct client_state *csp, char *fuzz_i
  *********************************************************************/
 extern int fuzz_client_request(struct client_state *csp, char *fuzz_input_file)
 {
+
    jb_err err;
 
-   csp->cfd = 0;
-   csp->ip_addr_str = "fuzzer";
-
+   csp->cfd = 0; //stdin
+   csp->ip_addr_str = "255.255.255.255";
    if (strcmp(fuzz_input_file, "-") != 0)
    {
       log_error(LOG_LEVEL_FATAL,
-         "Fuzzed client requests can currently only be read from stdin (-).");
+      "Fuzzed client requests can currently only be read from stdin (-).");
    }
-   err = receive_client_request(csp);
-   if (err != JB_ERR_OK)
-   {
-      return 1;
-   }
-   err = parse_client_request(csp);
-   if (err != JB_ERR_OK)
-   {
-      return 1;
-   }
+   csp->config->feature_flags |= RUNTIME_FEATURE_CONNECTION_KEEP_ALIVE;
 
-   return 0;
+   serve(csp);
+//   free_csp_resources(csp); //static...
+    return 0;
 
 }
 #endif  /* def FUZZ */
@@ -2263,7 +2257,8 @@ static int read_https_request_body(struct client_state *csp)
       log_error(LOG_LEVEL_CONNECT,
          "Waiting for up to %d bytes of request body from the client.",
          max_bytes_to_read);
-      len = ssl_recv_data(&(csp->ssl_client_attr), buf,
+      len = read_socket(csp->cfd, (char *)buf,
+//      len = ssl_recv_data(&(csp->ssl_client_attr), buf,
          (unsigned)max_bytes_to_read);
       if (len <= 0)
       {
@@ -2320,7 +2315,8 @@ static int receive_and_send_encrypted_post_data(struct client_state *csp)
       log_error(LOG_LEVEL_CONNECT,
          "Waiting for up to %d bytes of request body from the client.",
          max_bytes_to_read);
-      len = ssl_recv_data(&(csp->ssl_client_attr), buf,
+        len = read_socket(csp->cfd, (char *)buf,
+//      len = ssl_recv_data(&(csp->ssl_client_attr), buf,
          (unsigned)max_bytes_to_read);
       if (len == -1)
       {
@@ -2515,8 +2511,9 @@ static jb_err receive_encrypted_request(struct client_state *csp)
             "Socket %d timed out while waiting for client headers", csp->cfd);
          return JB_ERR_PARSE;
       }
-      len = ssl_recv_data(&(csp->ssl_client_attr),
-         (unsigned char *)buf, sizeof(buf));
+//      len = ssl_recv_data(&(csp->ssl_client_attr),
+        len = read_socket(csp->cfd,
+         buf, sizeof(buf));
       if (len == 0)
       {
          log_error(LOG_LEVEL_CONNECT,
@@ -2907,6 +2904,7 @@ static void continue_https_chat(struct client_state *csp)
 
    if (JB_ERR_OK != process_encrypted_request(csp))
    {
+      csp->flags &= ~CSP_FLAG_CLIENT_CONNECTION_KEEP_ALIVE;
       return;
    }
 
@@ -3194,7 +3192,7 @@ static void handle_established_connection(struct client_state *csp)
          int max_bytes_to_read = (int)csp->receive_buffer_size;
 
 #ifdef FEATURE_CONNECTION_KEEP_ALIVE
-         if ((csp->flags & CSP_FLAG_CLIENT_REQUEST_COMPLETELY_READ))
+         if ((csp->http->ssl) || (csp->flags & CSP_FLAG_CLIENT_REQUEST_COMPLETELY_READ)) // This is one of those 'it breaks when I don't do this, but I don't know why' situations.
          {
             if (data_is_available(csp->cfd, 0))
             {
@@ -3241,9 +3239,10 @@ static void handle_established_connection(struct client_state *csp)
          {
             if (csp->http->status == 101)
             {
-               len = ssl_recv_data(&(csp->ssl_client_attr),
-                  (unsigned char *)csp->receive_buffer,
-                  (size_t)max_bytes_to_read);
+//               len = ssl_recv_data(&(csp->ssl_client_attr),
+                 len = read_socket(csp->server_connection.sfd,
+                    csp->receive_buffer,
+                    (int)max_bytes_to_read);
                if (len == -1)
                {
                   log_error(LOG_LEVEL_ERROR, "Failed to receive data "
@@ -3353,12 +3352,13 @@ static void handle_established_connection(struct client_state *csp)
          /*
           * Reading data from standard or secured connection (HTTP/HTTPS)
           */
-         if (server_use_ssl(csp))
+/*         if (server_use_ssl(csp))
          {
             len = ssl_recv_data(&(csp->ssl_server_attr),
                (unsigned char *)csp->receive_buffer, csp->receive_buffer_size);
          }
          else
+*/
 #endif
          {
             len = read_socket(csp->server_connection.sfd, csp->receive_buffer,
@@ -4458,7 +4458,9 @@ static void chat(struct client_state *csp)
          /*
           * We can now create the TLS/SSL connection with the destination server.
           */
-         int ret = create_server_ssl_connection(csp);
+         int ret = 0;
+         csp->ssl_with_server_is_opened = 1;
+         //int ret = create_server_ssl_connection(csp);
          if (ret != 0)
          {
             if (csp->server_cert_verification_result != SSL_CERT_VALID &&
@@ -4489,6 +4491,7 @@ static void chat(struct client_state *csp)
                return;
             }
          }
+
       }/* -END- if (http->ssl) */
 #endif /* def FEATURE_HTTPS_INSPECTION */
 
@@ -4552,13 +4555,14 @@ static void chat(struct client_state *csp)
           * we must inform the client and then close the connection
           * with client and server.
           */
-         if (csp->server_cert_verification_result != SSL_CERT_VALID &&
+/*         if (csp->server_cert_verification_result != SSL_CERT_VALID &&
              csp->server_cert_verification_result != SSL_CERT_NOT_VERIFIED)
          {
             ssl_send_certificate_error(csp);
             close_client_and_server_ssl_connections(csp);
             return;
          }
+*/
          if (send_https_request(csp))
          {
             rsp = error_response(csp, "connect-failed");
@@ -4930,7 +4934,7 @@ static void serve(struct client_state *csp)
             config_file_change_detected);
       }
    } while (continue_chatting);
-
+//	return; // Save time doing it ourselves.
 #else
    chat(csp);
 #endif /* def FEATURE_CONNECTION_KEEP_ALIVE */
@@ -4969,8 +4973,7 @@ static void serve(struct client_state *csp)
    mark_connection_closed(&csp->server_connection);
 #endif
 
-   free_csp_resources(csp);
-
+   //free_csp_resources(csp); now static
    csp->flags &= ~CSP_FLAG_ACTIVE;
 
 }

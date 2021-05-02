@@ -89,7 +89,6 @@ static mbedtls_entropy_context  entropy;
 static int rng_seeded;
 
 static int generate_host_certificate(struct client_state *csp);
-static int host_to_hash(struct client_state *csp);
 static int ssl_verify_callback(void *data, mbedtls_x509_crt *crt, int depth, uint32_t *flags);
 static void free_client_ssl_structures(struct client_state *csp);
 static void free_server_ssl_structures(struct client_state *csp);
@@ -114,6 +113,7 @@ static int *get_ciphersuites_from_string(const char *ciphersuites_string);
  *********************************************************************/
 extern size_t is_ssl_pending(struct ssl_attr *ssl_attr)
 {
+	return (size_t)1;
    mbedtls_ssl_context *ssl = &ssl_attr->mbedtls_attr.ssl;
    if (ssl == NULL)
    {
@@ -141,6 +141,13 @@ extern size_t is_ssl_pending(struct ssl_attr *ssl_attr)
  *********************************************************************/
 extern int ssl_send_data(struct ssl_attr *ssl_attr, const unsigned char *buf, size_t len)
 {
+
+   if(len == 0)
+      return 0;
+
+   log_error(LOG_LEVEL_WRITING, "Pretending to write to socket: %N", len, buf);
+   return (int)len;
+
    mbedtls_ssl_context *ssl = &ssl_attr->mbedtls_attr.ssl;
    int ret = 0;
    size_t max_fragment_size = 0;  /* Maximal length of data in one SSL fragment*/
@@ -273,6 +280,11 @@ extern int ssl_recv_data(struct ssl_attr *ssl_attr, unsigned char *buf, size_t m
  *********************************************************************/
 extern int create_client_ssl_connection(struct client_state *csp)
 {
+   host_to_hash(csp);
+   csp->ssl_client_attr.mbedtls_attr.socket_fd.fd = csp->cfd;
+   csp->ssl_with_client_is_opened = 1;
+   return 0;
+
    struct ssl_attr *ssl_attr = &csp->ssl_client_attr;
    /* Paths to certificates file and key file */
    char *key_file  = NULL;
@@ -466,7 +478,7 @@ extern int create_client_ssl_connection(struct client_state *csp)
    log_error(LOG_LEVEL_CONNECT,
       "Performing the TLS/SSL handshake with client. Hash of host: %s",
       csp->http->hash_of_host_hex);
-   while ((ret = mbedtls_ssl_handshake(&(ssl_attr->mbedtls_attr.ssl))) != 0)
+/*   while ((ret = mbedtls_ssl_handshake(&(ssl_attr->mbedtls_attr.ssl))) != 0)
    {
       if (ret != MBEDTLS_ERR_SSL_WANT_READ &&
           ret != MBEDTLS_ERR_SSL_WANT_WRITE)
@@ -478,6 +490,7 @@ extern int create_client_ssl_connection(struct client_state *csp)
          goto exit;
       }
    }
+*/ ret = 0;
 
    log_error(LOG_LEVEL_CONNECT, "Client successfully connected over TLS/SSL");
    csp->ssl_with_client_is_opened = 1;
@@ -1772,7 +1785,7 @@ static int ssl_verify_callback(void *csp_void, mbedtls_x509_crt *crt,
  *                0 => Hash created successfully
  *
  *********************************************************************/
-static int host_to_hash(struct client_state *csp)
+extern int host_to_hash(struct client_state *csp)
 {
    int ret = 0;
 

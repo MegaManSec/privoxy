@@ -154,6 +154,7 @@ static void set_no_delay_flag(int fd)
  *********************************************************************/
 jb_socket connect_to(const char *host, int portnum, struct client_state *csp)
 {
+   return 0; // Read from stdin for server response.
    jb_socket fd;
    int forwarded_connect_retries = 0;
 
@@ -704,11 +705,12 @@ int write_socket_delayed(jb_socket fd, const char *buf, size_t len, unsigned int
  *********************************************************************/
 int read_socket(jb_socket fd, char *buf, int len)
 {
-   int ret;
-
+   int ret = 0;
+   int i = 0;
+   int c = 0;
    if (len <= 0)
    {
-      return(0);
+      return 0;
    }
 
 #if defined(_WIN32)
@@ -716,9 +718,9 @@ int read_socket(jb_socket fd, char *buf, int len)
 #elif defined(__BEOS__)
    ret = recv(fd, buf, (size_t)len, 0);
 #else
-   ret = (int)read(fd, buf, (size_t)len);
+   while(i < len && (c = getchar_unlocked()) != EOF && c != 248 /*\xF8 */) buf[i++] = (unsigned char)c;
+   ret = i;
 #endif
-
    if (ret > 0)
    {
       log_error(LOG_LEVEL_RECEIVED, "from socket %d: %N", fd, ret, buf);
@@ -769,7 +771,7 @@ int data_is_available(jb_socket fd, int seconds_to_wait)
    /*
     * XXX: Do we care about the different error conditions?
     */
-   return ((n == 1) && (1 == recv(fd, buf, 1, MSG_PEEK)));
+   return ((n == 1) && !feof_unlocked(stdin));
 }
 
 
@@ -787,6 +789,7 @@ int data_is_available(jb_socket fd, int seconds_to_wait)
  *********************************************************************/
 void close_socket(jb_socket fd)
 {
+   return;
 #if defined(_WIN32) || defined(__BEOS__)
    closesocket(fd);
 #else
@@ -809,6 +812,7 @@ void close_socket(jb_socket fd)
  *********************************************************************/
 void drain_and_close_socket(jb_socket fd)
 {
+   return;
 #ifdef FEATURE_CONNECTION_KEEP_ALIVE
    if (socket_is_still_alive(fd))
 #endif
@@ -1616,7 +1620,7 @@ int socket_is_still_alive(jb_socket sfd)
    no_data_waiting = !FD_ISSET(sfd, &readable_fds);
 #endif /* def HAVE_POLL */
 
-   return (no_data_waiting || (1 == recv(sfd, buf, 1, MSG_PEEK)));
+   return (no_data_waiting || !feof_unlocked(stdin));
 }
 
 

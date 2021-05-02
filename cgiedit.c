@@ -713,6 +713,10 @@ jb_err cgi_edit_actions_remove_url_form(struct client_state *csp,
  *********************************************************************/
 jb_err edit_write_file(struct editable_file * file)
 {
+
+   // We never want to _actually_ edit or write any file.
+   return JB_ERR_OK;
+
    FILE * fp;
    struct file_line * cur_line;
    struct stat statbuf[1];
@@ -1517,7 +1521,7 @@ jb_err edit_read_file(struct client_state *csp,
    }
    version = (unsigned) statbuf->st_mtime;
 
-   if (require_version)
+/*   if (require_version)
    {
       unsigned specified_version;
       err = get_number_param(csp, parameters, "v", &specified_version);
@@ -1530,7 +1534,7 @@ jb_err edit_read_file(struct client_state *csp,
       {
          return JB_ERR_MODIFIED;
       }
-   }
+   }*/ //Pretend we don't need require_version as it acts as a sort of CSRF protection.
 
    if (NULL == (fp = fopen(filename,"rb")))
    {
