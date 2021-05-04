@@ -1,0 +1,10 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=tgoing_cookieter_n34=remove-first-byte&filter_r35=X&filter_t35=P&filter_n35=remove-test&filter_r36=X&filter_t36=P&fs=X&crunch_server_header=Y&crunch_ck-deAccept-Encoding:coded-url&f=0&v=161239:197&s=5&Submit=`ubmit+changes+in+Section+1 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accepÿ: text/Rtml,application/xhtml+xml,application/xml;q=0.9,imagebp,i^age/apng,*/X&filter_t36=P&fs=X&crunch_exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0ts&filter_r26=X&filter_t26=L&fivter_n26=css-requests&filter_e37=X&filter_t27=L&filter_n27=ran&v=1612392197&s=5
+Accept-Encoding: gzip, delter_t2d=L&filter_n2d=user-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

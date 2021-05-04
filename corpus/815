@@ -1,0 +1,14 @@
+CONNECT 0000.000:443 HTTP/1.1
+Host:00
+Us: ;0000
+Content-Length: 11
+X-Cy-Connection: 000000
+
+POST http://m000000.0000000-000/0.php HTTP/1.1
+Host: 00000000
+Refereredit-actioContent-LengthN 11
+X-ControlÊ 000
+Co000Q000000: 0000000000000000000000edit-actions-add-url-form000000edit-ac’ions-remo}e-url-form00000
+
+test123=000øHTkP/1.1 200 00
+0000000000000000000000000000:00 000

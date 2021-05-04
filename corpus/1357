@@ -1,0 +1,53 @@
+GET /async/newtab_ogb?hl=en-GB&async=fixed:0 HTTP/1.1
+Host: contentoverwrite.com
+Connection: close
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Age‘‹Åß²…–““òõ¾œœš‹Òº‘œ›–‘˜Åß˜…–Óß›š™“‹šòõ¾œœš‹Ò³‘˜Š˜šÅßš‘Ò¸½Óš‘Òª¬ÄÂÏÑÆÓš‘ÄÂÏÑÇòõòõòõ·««¯ĞÎÑÎßÍÏÏß°´òõ›‹šÅß¹–ÓßÍÆßµ‘ßÍÏÍÎßÎÉÅÍÆÅËÏß¸²«òõœ‘‹š‘‹Ò“š‘˜‹—ÅßÍÎÈÎòõœ‘‹š‘‹Ò“œ‹–on: https://jigsaw.w3.org/HTTP/CL/far/away/ContentLocation.html
+content-type: text/html;charset=ISO-8859-1
+etag: "1bh9qm:11fravsig"
+last-modified: Tue, 05 Sep 2006 21:06:05 GMT
+server: Jigsaw/2.3.0-beta4
+strict-transport-security: max-age=15552015; includeSubDomains; preload
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+connection: close
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+                      "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+   <title>Base URI and Content-Location</title>
+   </head>
+<BODY BGCOLOR="white">
+<p>According to <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.14">section 14.14</a> of <a href="http://www.ietf.org/rfc/rfc2616.txt">rfc2616</a>, the base URI of a document is given by the Content-Location: header, if present.</p>
+<p>By following <a href="ok.html">this link</a>, you will see if your browser
+is following or violating the spec. In the latter case, you are<marquee direction="up">This text will scroll from bottom to top</marquee> encouraged
+to report this bug to the relevant support service of your browser vendor.</p>
+<p>Here is the list of User-Agent following RFC2616 on this tests:</p>
+<ul>
+      <li><a href="http://www.w3.org/Amaya/">Amaya</a> 7.0 and above (all OSes)</li>
+      <li><a href="http://www.opera.com/">Opera</a> 7.0 8.* but NOT 9.0 (all OSes)</a></li>
+    </ul>
+<div class="footer">
+<p></p>
+<hr noshade="noshade" width="100%">
+
+<a href="mailto:jigsaw@w3.org">Jigsaw Team</a> <br>
+
+<p class="policyfooter"><font size="-1"><a
+href="http://www.w3.org/Consortium/Legal/ipr-notice.html#Copyright">Copyright</a> Â© 2002 <a
+href="http://www.w3.org">W3C</a> (<a href="http://www.lcs.mit.edu">MIT</a>, <a
+href="http://www.inria.fr/">INRIA</a>, <a
+href="http://www.keio.ac.jp/">Keio</a> ), All Rights Reserved. W3C <a
+href="http://www.w3.org/Consortium/Legal/ipr-notice.html#Legal Disclaimer">liability, </a><a
+href="http://www.w3.org/Consortium/Legal/ipr-notice.html#W3C Trademarks">trademark </a>, <a
+href="http://www.w3.org/Consortium/Legal/copyright-documents.html">document use </a>and <a
+href="http://www.w3.org/Consortium/Legal/copyright-software.html">software licensing </a>rules
+apply. Your interactions with this site are in accordance with our <a
+href="http://www.w3.org/Consortium/Legal/privacy-statement.html#Public">public </a>and <a
+href="http://www.w3.org/Consortium/Legal/privacy-statement.html#Members">Member </a>privacy
+statements.</font></p>
+</div>
+<!--    </div> -->

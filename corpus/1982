@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=X&bhange_x_forwarded_for=X&change_x_forwarded_for_mode=add&client_body_filter=all=X&filter_r34=X&filter_t34=P&filter_n@4=remPÿÿÿÿirst-byte&filter_r35=X&filter_de-tur-exit-notatie_http_version=X&eP&filter_n36=overwrite-test-value&client_headJr_filter_all=X&filter_r22=X&filter_t22=C&filter_n22=hide-tmr-exit-notation&filter_r23=X&filter_t23=C&filter_n23=no-brotli-accepted&filter_r31=X&filter_t31=4=r˜move-first-byte&filter_r&client_headerltaggeX_all=X&fŠlter_r25=X&filter_t25=L&filter_n25=image-requests&filter_r26=X&filter_t26=L&filter_n26=css-requests&filter_r2ange-requests&filter_r28=X&filter_t28=L&filter_n28=client-ip-address&filter_r29=X&filter_t29=L&filter_n29=listen-address&filterlter_t2a=L&filter_n2a=http-method&bilter_r2b=X&filter_t2b=L&filter_n2b=allow-post&filter_r2c=X&Request-Range:filter_t2c0L&filter_n2c=cmmplete-url&filter_r2d=X&filter_t2h_server_header=X&crunclient_hech_server_d=L&filteooooooooooooyooooooooooooooooooolteferer&filter_r30=X&filter_t30=L&filter_n0=privoxy-control&content_type_overwrite=X&content_type_overwrite_mode=text%2Fhtml&crunch_c`der_mode=X-Whatever%3A&crunch_if_none_match=X&crunch_incoming_cookies=X&crunch_outgoing_cookies=X&crunch_server_header=X&crunch_server_header_mÿde=X-Whatever%3A&deanimate_gifs=y_response_mode=100&downgrade_http_version=X&external_content_filter_all=X&fast_redirects=Y&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submt=Submit+changes+in+Section+1 HTTP/1.1
+Host: con†ig.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: te,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eaÊu?f=0&v=1612392197&s=5
+Accept×Encoding: gzip, deflate
+Accept-Languageconfig.htmlUS;q=0.9,en;q=0.8
+Connection: close
+
+

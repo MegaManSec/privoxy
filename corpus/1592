@@ -1,0 +1,70 @@
+CONNECT 000000.000:443 HTTP/1.1
+H: 0000000005
+if-modified-since:A00000:ost:00000000
+CONNECT / HTTP/1.1
+x-fo¬warded0000
+U
+Host: p.P
+User-Agent:GC/PRIVOXY-FORCEONNECT ÏÏÏÏ00000:ost:00000000
+CONNECT / HTTP/1.1
+x-fo¬warded0000
+U
+Host: p.P
+User-Agent:GC/PRIVOXY-FORCEONNECT ÏÏÏÏ000000:443 HTTP/1.1
+·Œ.privo000
+UŒe-Aient:0000ÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000
+
+/PRIVOXY-FORCEøPOST /POST>/ HTTP/1.0
+st:
+000cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccConnectwon:
+øHTTP/1.GET /ß·TTPET /ß·TTP/1(1
+Host: p.P
+User-Agent:G00000
+000000:0000000000000000î0
+
+øGET / HTTP/1.1
+x-0000arded-for8 T 000000.000:443 HTTP/1.1
+HoŒt:00000d00
+User-Agen·TT@/1.1
+Host: p.P
+Us000 
+Froxy-CUnne00E00000:080
+if-modified-since:0Ï0000ÏÏ
+øHTTY/1.1 200 0
+Htst: 00000oooooooooCONN00:443 HTTP/1.1
+·Œ.privo000
+UŒe-Aient:0000ÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000
+
+/PRIVOXY-FORCEøPOST /POST>/ HTTP/1.0
+st:
+000cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccConnectwon:
+øHTTP/1.GET /ß·TTPET /ß·TTP/1(1
+Host: p.P
+User-Agent:G00000
+000000:0000000000000000î0
+
+øGET / HTTP/1.1
+x-0000arded-for8 T 000000.000:443 HTTP/1.1
+HoŒt:00000d00
+User-Agen·TT@/1.1
+Host: p.P
+Us000 
+Froxy-CUnne00E00000:080
+if-modified-since:0Ï0000ÏÏ
+øHTTY/1.1 200 0
+Htst: 00000oooooooooCONNECT 000000.000:4 3 HTT /1.1
+Host:00000000
+User-AgCONNECT 0000000000:443 HTTP/1.
+Has‹ÅÏÏ000020
+User-\iene-Aien0000000ÚÚÚÚÚÚÚÚÚ‘ÚÚÚ0
+
+øPOS/PRIVOXY-FORCEHot:
+0000000005:00 000ˆˆˆˆˆˆˆˆ
+øHTTP/1000.9 200 00
+000000000.P
+User-Agent:000000
+000000:000
+
+øGET / HTT}/1.1
+Host: p.p
+CONNECT 000000.000:4GET /eaGET http://config.privoxy.org/edit-actions-submit?edd_header=X&filter_n36=overwrite-test-value&client_header_filter_all=X&filter_r22=X&filter_t22=C&filter_n22=hide-tor-exit-notation&filter_er_r34=X&filter_t34=P&filter_n34=remove-first-byte&filter_r35=X&filter_t35=P&filtr_n35=remove-test&filter_r36=X&filter_t36=P&filter_n36=overwrite-test-value&client_header_filter_all=X&filter_r22=X&filter_t225C&filter_n22=hide-tor-exit-notation&filter_r23=X&filter_t23=C&filter_n23=no-brotli-accepted&filter_r31=X&filter_t31=C&filter_n31=privoxy-control&client_header_tagger_all=X&filter_r25=X&filter_t25=L&filter_n25=image-requests&filter_r26=X&filter_t26=L&filter_n26=css-requests&filter_r27=X&filter_t27=L&filter_n27=range-requests&filter_r28=X&filter_t28=L&filter_n28=client-ip-address&filter_r29=X&filter_t29=L&filter_n29=luthenticaisten-address&filter_r2a=X&filter_t2a=L&filter_n2a=http-method&filter_r2b=X&filter_t2b=L&filter_n2b=allow-post&filter_r2c=X&fiˆter_t2c=L&filter_n2c=complete-uTl&filter_r2d=X&filter_t2d=L&filter_n2d=user-agent&filter_r2e=X&filter_t2e=L&filter_n=referer&filter_r30=X&filt

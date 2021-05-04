@@ -1,0 +1,34 @@
+POST /service/update2/json HTTP/1.1
+Host: upRange:oogleapis.co@
+Connection: close
+Content-Length: 2
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla
+Accept-Encoding: gzip, deflate
+
+{}Accept-Language:øHTTP/1.1 401 Unauthorized
+date: Fri, 29 Jan 2-1
+Set-Cookie: cookie=cookie; 021 16:29:41 GMT
+content-length: 271
+content-type: text/html;charset=ISO-8859-1
+Set-Cookie: cookie=cookie; 
+content-length: 271
+Expires=Wed, 21 OcOST /t 2025 07:28:00 GMT
+www-authenticate: Digest realm="test", domain="/HTTP/Digest", nonce="efead82210defa9c5efc36e0ebccb469"
+strict-transporProxy-Authorization:15552015; includeSubDomains; preload
+x-frame-options: deny
+x-xss-pre=block
+connection: close
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+               "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <title>Unauthorized</title>
+</head>
+<body>
+<h1>Unauthorized access</h1><p>You are denied access to this resource.</body>
+</html>

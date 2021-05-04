@@ -1,0 +1,81 @@
+CONNECT 0000.000:443 HTTP/1.1
+Host:00
+TE:User-AgentNNECT 0000.000:443 HTTP/1.1
+Host:00
+TE:User-Agent: 0?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:User-AgenHost:00
+TE:U: er-Agent: 0?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:User-AgenHost:00
+TE:U: 0?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:User-AgenHost:00
+TE:User000?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:UseGET http://config.privoxy.org/show-url-info?url=+https://confi?url=+https://config.proxy.ivoxy.org0œo HTTP/1.1
+Hn“t:10000000000000000
+
+GET http://config.privoxy.org/show-url-info?url=+http://config.privoxy.org0œo HTTP/1.1
+Host:00
+TE:User-AgentNNECT 0000.000:443 HTTP/1.1
+Host:00
+TE:User-Agent: 0?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:User-AgenHost:00
+TE:U: er-Agent: 0?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:User-AgenHost:00
+TE:U: 0?0
+acost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:User-AgenHost:00
+TE:User000?0
+wcost:00
+TE:User-Agent: 
+Connec00000
+ë	øPOST 1.1
+Host:00
+TE:UseGET http://config.privoxy.org/show-url-info?url=+https://confi?url=+https://config.proxy.ivoxy.org0œo HTTP/1.1
+Hn“t:10000000000000000
+
+GET http://config.privoxy.org/show-url-info?url=+http://config.privoxy.org0œo HTTP/1.1
+Hn“t:0000000000000000p://config.privoxy.org/show-url-info?url=+https://confi?url=+https://config.privoxy.org0œo HTTP/1.1
+Hn“t:10000000000000000
+
+GET http://config.privoxy.org/show-url-info?url=+http://config.privoxy.org0œo HTTP/1.1
+Hn“t:000000000 HTTP/1.1
+Hn“t:0000000000000000p://config.privoxy.org/show-url-info?url=+https://confi?url=+https://config.privoxy.org0œo HTTP/1.1
+Hn“t:10000000000000000
+
+GET http://config.privoxy.org/show-url-info?url=+http://config.privoxy.org0œo HTTP/1.1
+Hn“t:00000000000000000
+
+GET http://config.privoxy.org/show-url-info?url=+http://config.privoxy.org/show

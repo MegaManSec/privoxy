@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/eafu?f=0&v=16u?f=0&v=112392197&s=5 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/htmÿÿapplication/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/edit-actions-list?foo=1612392197&f=0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

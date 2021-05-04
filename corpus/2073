@@ -1,0 +1,32 @@
+POST http://googme.com/headers HTTP/1.1iiiJice/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Emde: no-c‰rs
+Sec-Fetch-Dest: empty
+User-Agent: Morilla
+Accept-Enboding: gzip, deflate
+
+{}øHTTP/1.1 401 Unauthorized
+date: Fri, 29 Jan 2021 16:29:41
+Set-Cookie: cookie=cookie; Ex GMT-
+content-length: 271
+contnt-type: tùxt/html;charsÆt=ISO-8859-$
+Set-Cook01 Una[thorized
+date: Fri, 29 Jan 2021 16:29:41
+Set-Cookie: cookie=cookie; Ex GMT-
+content-length: 271
+contnt-type: tùxt/html;charsÆt=ISO-8859-$
+Set-Cookie: cookie=cookie; Expires=Wed, 21 Oct 2020 07:28:00 GMT
+www-aÿÿhe9:41
+Set-Cookie: cookie=cookienticate: Digcst realm="test", ÿmain="/HTPContt=ISO-8859-$
+Set-Cookie: cookie=cookie;ie: cookie=cookie; Expires=Wed, 21 Oct 2020 07:28:00 GMT
+www-aÿÿhe9:41
+Set-Cookie: cookie=cookienticate: Digest realm="test", ÿmain="/HTTPContt=ISO-8859-$
+Set-Cookie: cookie=cookie; Expires=Wed, 21 Oct 2020 07:28:00 GMT
+www-aÿÿhe9:41ent-Type: e="efead82210defa9c5efc36e0ebccb469"okie: cookie=cookie; Expires max-age=1555ins; preload
+x-frame-optiiiiMiiiiii„iiiii*
+Pro-mainnn: ok
+

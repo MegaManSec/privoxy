@@ -1,0 +1,23 @@
+GET / HTTP/1.0
+H1µost:K
+ øHTTK
+ øHTTµ/ Host:K
+ øHTTK
+ øHTTµ/ Host:K
+ øHTTµ/ HTTP/1µost:K
+ øHTTK
+ øHTTµ/ Host:K
+ øHTTµ/ HTTP/1µ/ Host:K
+ øHTTµ/ HET /00000000GET /t HTTP/1.1
+Host:p.GE:0
+
+øGET / HTTP/1.0
+Host:K
+ øHTTK
+ øHTTµ/ Host:K
+ øHTTµ/ HTTP/1µost:K
+ øHTTK
+ øHTTµ/ Host:K
+ øHTTµ/ HTTP/1µ/ Host:K
+ øHTTµ/ Host:K
+ 

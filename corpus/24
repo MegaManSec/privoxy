@@ -1,0 +1,683 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=X&block=X&block_mode=No+reason+specified.&change_x_forwarded_for=X&change_x_forwarded_for_mode=add&client_body_filter_all=X&filter_r34=X&filter_t34=P&filter_n34=remove-first-byte&filter_r35=X&filter_t35=P&filter_n35=remove-test&filter_r36=X&filter_t36=P&filter_n36=overwrite-test-value&client_header_filter_all=X&filter_r22=X&filter_t22=C&filter_n22=hide-tor-exit-notation&filter_r23=X&filter_t23=C&filter_n23=no-brotli-accepted&filter_r31=X&filter_t31=C&filter_n31=privoxy-control&client_header_tagger_all=X&filter_r25=X&filter_t25=L&filter_n25=image-requests&filter_r26=X&filter_t26=L&filter_n26=css-requests&filter_r27=X&filter_t27=L&filter_n27=range-requests&filter_r28=X&filter_t28=L&filter_n28=client-ip-address&filter_r29=X&filter_t29=L&filter_n29=listen-address&filter_r2a=X&filter_t2a=L&filter_n2a=http-method&filter_r2b=X&filter_t2b=L&filter_n2b=allow-post&filter_r2c=X&filter_t2c=L&filter_n2c=complete-url&filter_r2d=X&filter_t2d=L&filter_n2d=user-agent&filter_r2e=X&filter_t2e=L&filter_n2e=referer&filter_r30=X&filter_t30=L&filter_n30=privoxy-control&content_type_overwrite=X&content_type_overwrite_mode=text%2Fhtml&crunch_client_header=X&crunch_client_header_mode=X-Whatever%3A&crunch_if_none_match=X&crunch_incoming_cookies=X&crunch_outgoing_cookies=X&crunch_server_header=X&crunch_server_header_mode=X-Whatever%3A&deanimate_gifs=X&deanimate_gifs_mode=last&delay_response=X&delay_response_mode=100&downgrade_http_version=X&external_content_filter_all=X&fast_redirects=N&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submit=Submit+changes+in+Section+1 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;GET http://config.privoxy.org/show-url-info?url=http%3A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: htt://config.privoxy.org/show-url-info
+AcceGET http://config.priv
+Host: config.privoxy.org
+Referer: ex=99 HTTP/1.1
+Host: config.p„ivoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+AccepGET http://config.privoxy.org/toggle?set=0000000 HTTP/1.1
+Host: 0GET http://config.privoxy.org/toggle?set=0000000 HTTP/1.1
+Host: GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-s0000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi0000000000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expiretate=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: 000
+Last-nt_save_content_letoggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Host:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443(HTTP/1.1
+0
+UŒer-Aient:0000ig.privoxy.org/toggle-clienÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPrÖy-Authenticate:00000000000TR/ÎÑÏõææ
+øCONNECT 0000000000:443 HTTP/1.1
+Hoctwon:
+øH««¯Ğ1.GET /ß·TTP/1.1ÿ
+Host:GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-staue=1&expires=0 HTTP/1.1
+Host: config.privpxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi0000H00000000ÿÿD000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.orgReferer: http://config.privoxy.org/CONNeCt 000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET ht|p://configÏÏ0=.000/0.php HTTP/1.1
+Host: 000000000
+RefererGEp://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config0
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&togglRange:e-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi00000 0000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expiretate=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: 000
+Last-nt_save_content_letoggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Host:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443(HTTP/1.1
+0
+UŒer-Aient:0000ig.privoxy.org/toggle-clienÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TR/ÎÑÏõææ
+øCONNECT 0000000000:443 HTTP/1.1
+Hoctwon:
+øH««¯Ğ1.GET /ß·TTP/1.1ÿ
+Host:GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-staue=1&expires=0 HTTP/1.1
+Host: config.privpxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi0000000000000ÿÿD000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.orgReferer: http://config.privoxy.org/CONNeCt 000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 0000eau3 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://configÏÏ0=.000/0.php HTTP/1.1
+Host: 000000000
+RefererGEp://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / H004000000000000000000000000ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0000Œer-Ai««««««««««««««««««ÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggOe-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggÿe-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1er-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/cc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%Úwrite=X&content_type_overwrite_mode=text%2Fhtml&crunch_client_header=X&crunch_client_header_mode=X-Whatever%3A&crunch_if_none_match=X&crunch_incoming_cookies=X&crunch_outgoing_cookies=X&crunch_server_header=X&crunch_server_header_mode=X-Whatever%3A&deanimate_gifs=X&deanimate_gifs_mode=last&delay_response=X&delay_response_mode=100&downgrade_http_version=X&external_content_filter_all=X&fast_redirects=N&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submit=Submit+changes+in+Section+1 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;GET http://config.privoxy.org/show-url-info?url=http%3A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: htt://config.privoxy.org/show-url-info
+AcceGET http://config.priv
+Host: config.privoxy.org
+Referer: ex=99 HTTP/1.1
+Host: config.p„ivoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+AccepGET http://config.privoxy.org/toggle?set=0000000 HTTP/1.1
+Host: 0GET http://config.privoxy.org/toggle?set=0000000 HTTP/1.1
+Host: GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-s0000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi0000000000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expiretate=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: 000
+Last-nt_save_content_letoggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Host:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443(HTTP/1.1
+0
+UŒer-Aient:0000ig.privoxy.org/toggle-clienÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPrÖy-Authenticate:00000000000TR/ÎÑÏõææ
+øCONNECT 0000000000:443 HTTP/1.1
+Hoctwon:
+øH««¯Ğ1.GET /ß·TTP/1.1ÿ
+Host:GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-staue=1&expires=0 HTTP/1.1
+Host: config.privpxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi0000H00000000ÿÿD000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.orgReferer: http://config.privoxy.org/CONNeCt 000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET ht|p://configÏÏ0=.000/0.php HTTP/1.1
+Host: 000000000
+RefererGEp://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config0
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&togglRange:e-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi00000 0000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expiretate=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: 000
+Last-nt_save_content_letoggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Host:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443(HTTP/1.1
+0
+UŒer-Aient:0000ig.privoxy.org/toggle-clienÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TR/ÎÑÏõææ
+øCONNECT 0000000000:443 HTTP/1.1
+Hoctwon:
+øH««¯Ğ1.GET /ß·TTP/1.1ÿ
+Host:GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-staue=1&expires=0 HTTP/1.1
+Host: config.privpxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://confi0000000000000ÿÿD000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.orgReferer: http://config.privoxy.org/CONNeCt 000000ÿÿ0000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 0000eau3 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: GET http://configÏÏ0=.000/0.php HTTP/1.1
+Host: 000000000
+RefererGEp://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=0000/er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0eferer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoy.org
+Referer: http://config.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/1.1 20e‡@CONNECT / HTTP/1.1ù
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / H004000000000000000000000000ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0000Œer-Ai««««««««««««««««««ÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggOe-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggÿe-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1er-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/cc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: +ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg 
+HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0000Œer-Ai««««««««««««««««««ÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000070000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+0ÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: +ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg 
+HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0000Œer-Ai««««««««««««««««««ÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000070000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0-00Œer-Aient:0000ÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aien\:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HT:0ed0000
+U
+Host: p.P
+User-AHent:GHost:00000:0000001000
+ction:00000000000
+
+00000Ï0000000CONNECT / HTTP/1.1øCONNECT 000000.000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200ç
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B0000000.privoxy.org/CONNeCt 00003 HTTP/1.1
+Hos.org/CONNeCt 00003 HTTP/1.t:00HTTP/ent-Disposition: attacc000000000000:0000000000
+Content-ÚPr‡@CONNECT / H004000000000000000000000000ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0000Œer-Ai««««««««««««««««««ÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Connq00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000J00000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggOe-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1er-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/cc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: +ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg 
+HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0000Œer-Ai««««««««««««««««««ÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõææHost2
+00000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1
+Host: q.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: ivoxy.org
+Referer: http://config.privoxy.org/cGET http://config.privoxy.HTTP/1.1ù
+x-forwarded-for: /1.1
+HosGET http://bonfigprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aient:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HTTP/1.1ù
+x-forwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+0
+U00*00000000000000000.jpg HTTP/1.1
+Host: media.adrevolder.coGET /000.gif HTTP/1.1
+Host: m000000A0000000.000
+User-Agent:0-00Œer-Aient:0000ÏÏÏÏ0000ÚÚÚÚÚÚÚÚÚ%ÚÚÚPr‡y-Authenticate:00000000000TP/ÎÑÏõæHost2
+000000.000
+Connectwon:
+øH««¯Ğ1.GET /ß·T@P/1.1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Host: p.P
+U_er-Agent:G00000
+000000:000ÚÚ%ÚÚÚPr‡y-AutAcc000:0000
+Proxy-Conne00000000:HTTP/1.0òõææHost:
+00000.000KConnectwon:
+øH««¯Ğ1.GET /ß·TTP/P/1.1
+Host000000000000B00000000000
+Ho0O00B0000000000000000000000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://confhg.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Host:00HTTP/1.1 200 
+User Agent: 000
+Acc000: 000Pÿoxytp://configCONNECT / HTTP/1.1
+x-fonwarded-for: 
+ÏÏÏÏ000000:443 HTTP/1.1
+Hot:0000000
+UŒer-Aien\:0000ÏÏÏÏ: chuˆked
+cÚ%ÚÚÚPr‡@CONNECT / HT:0ed0000
+U
+Host: p.P
+User-AHent:GHost:00000:0000001000
+ction:00000000000
+
+00000Ï0000000CONNECT / HTTP/1.1øCONNECT 000000.000000000g000000000000ÿ0ÏÏÏÏ0000000000000000000000000000
+
+GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&Ixpires=0 HTTP/1.1v
+Host: config.privoxy.org
+Referer: http://config.privoxy.org/CONNeCt 0000.000:443 HTTP/1.1
+Hos

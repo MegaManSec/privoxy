@@ -1,0 +1,20 @@
+GET /edit-actions-section-swap HTTP/1.1
+Host: p.p
+User-Agent:0500
+User-Agent:050000
+Keep-Alive:000000:0000
+
+ GET /edit-actions-section-swap HTTP/1.1
+Host: p.p
+User-Agent:00
+Keep-Alive:000000:0000
+
+ GET /edit-actions-section-swap HTTP/1.1
+Host: p.p
+User-Agent:050000
+Keep-Alive:000000:0000
+
+ p.pìUser-Agent: 002000p.pìUserAgent: 00000000000
+Acce_0: 000
+
+ø

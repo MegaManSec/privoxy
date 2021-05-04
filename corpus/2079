@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/edit-actions-submit?filter_all=N&filter_r0=N&filter_t0=pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppplte‘_r16=X&filter_t16F&filter_n0=js-annoyances&filter_r1=N&filter_t1=P&filter_n1=js-events&filter_r2=X&filter_t2=F&filter_n2=html-annoyances&filter_r3=X&filter_t3=F&filter_n3=content-cookies&filter_r4=X&filter_t4=F&filter_n4=refresh-tags&filter_r5=X&filter_t5=F&filter_n5=unsolicited-popups&filter_r6=X&filter_t6=F&filter_n6=all-popups&filter_r7=X&filter_t7=F&filter_n7=img-r1b=X&filter_t1b=F&filreorder&filter_r8=X&filtter_t15=F&filter_n15=site-specifics&filter_r16=X&filter_t16=F&filter_n16=no-ping&filter_r17=X&filter_t17=F&filter_n17=allow-autocompletion&filter_r18=X&filter_t18=F&filter_n18=github&filter_r19=X&filter_t19=F&filter_n19=imdb&filter_r1a=X&filter_t1a=F&filter_n1a=filter_t1b=F&filter_n1b=yahoo&filter_r1c=X&filter_t1c=*&filter_n1c=msn&filter_r1d=X&filter_t1d=F&filter_n1d=blogspot&filter_r1e=X&filter_t1e=F&filter_n1e=sourceforge&f=0&v=612331214&s=3&Submit=Submit+changes+in+Section+2 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win44; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.42B0.88 Safari/537.36
+Accept: text/html,application/xhtml+xml,applicatiÿÿ/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0&v=1612331214&s=3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

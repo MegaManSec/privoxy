@@ -1,0 +1,15 @@
+GET http://config.privoxy.org/toggle?set=textGET!¯ HTTP/1.1
+Host: p.p
+User-Agen /p
+User-Agen / HTT/$
+Hist 000000
+
+ømove  / HTTP/1.1
+Host: p.p
+User-Agen / HTT.1 HTT.1
+Hist 000000
+
+ømove  / HTTP/1.1
+Host: p.p
+User-Agen / HTT.1
+Hist 000000

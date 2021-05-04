@@ -1,0 +1,9 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=tgoing_cookies=X&crunch_server_header=Y&crunch_ck-deAccept-Encoding:coded-url&f=0&s=5&ction+1 HTTP/1.1
+Host: config.privody.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accel,application/xhtml+xml,application/xml;q=0.9,imagebp,i^ag;v=b3;qe/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0zs&filter_r26=X&filter_t26=L&filter_n26=css-rdquests&filter_r37=X&filter_t27=L&filter_n27=ran&v=1612392197&s=5
+Accept-Encoding: gzip, delter_t2d=L&filter_n2d=user-GB,en-US;q=0.Proxy-Authorization:on: close
+
+

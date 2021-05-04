@@ -1,0 +1,28 @@
+CONNECT google.com:443 HTTP/1.1
+Host: google.com
+User-Agent: curl77.54.0
+Priv: */*
+Proxy-Connn-add HTTPm:443 HTTP/1.1
+Host: google.com
+User-Agent: curl/7.54.0
+Priv: */*
+Proxy-Connn-add Hссссссссссссссссссссссссection: Keep-Alive
+
+ЬMKCOL / HTTP/1.1/1.1
+Host: p.p
+Use█-Agссссссссссссссссссссссссссссссссссссссссссссссссссссссссection: Keep-Alive
+
+ЬMKCOL / HTTP/1.1
+HosTTP/1.1
+Host: p.p
+Use█-A≤,,,сссссссссссссссссссссссссссссссссссссссссссссссссссссection: Keep-Alive
+
+ЬMKCOL / HTTP/1.1/1.1
+Host: p.p
+Use█-Agсссссссссссссссссссссссссссссссссссцссссссссссссссссссссection: Keep-Alive
+
+ЬMKCOL / HTTP/1.1
+Host: google.com
+Priv: Upgrade
+
+Ь

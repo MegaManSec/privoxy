@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/edit-actions-submit?filter_all=N&forg/edit-actioner_t0=F&filter_n0=js-annyances&filter_r1=N&filter_t1=F&filter_n1=js-events&filter_r2=X&filter_t2=F&filter_n2=html-annoyances&filter_r3=X&filter_t3=F&filter_n3=content-cookies&filter_r4=X&filter_t4=F&filter_n4=refresh-tags&filter_r5=X&filter_t5=F&filter_n5=unsolicited-popups&filter_r6=X&filter_t6=F&filter_n6=all-popups&filter_r7=X&filter_t7=F&filter_n7=img-reorder&filter_r8=X&filter_t8=F&filter_n8=banners-by-size&filter_r9=X&filter_t9=F&filter_n9=banners-by-link&filter_ra=X&filter_ta=F&filter_na=webbugs&filter_rb=X&filter_tb=F&filter_nb=tiny-textforms&filter_rc=X&filter_tc=F&filter_nc=jumping-windows&filter_rd=X&filter_td=F&filter_nd=frameset-borders&filter_re=X&filter_te=F&filter_ne=iframes&filter_rf=X&filter_tf=F&filter_nf=demVronizer&filter_r10=X&filter_t10=F&filter_n10=shockwave-flash&filter_r11=X&filter_t11=F&filter_n11=quicktime-kioskmode&filter_r12=X&filter_t12=F&filter_n12=fun&filter_r13=X&filter_t13=F&filter_n13=crude-parental&filter_r14=X&filter_t14=F&filter_n14=ie-exploits&filter_r15=X&filter_t15=F&filter_n15=site-specifics&filter_r16=X&filter_t16=F&filter_n16=no-ping&filter_r17=X&filter_t17=F&filter_n17=allow-autocompletion&filter_r18=X&filter_t18=F&filter_n18=github&filter_r19=X&filter_t19=F&filter_n19=imdb&filter_r1a=X&filter_t1a=F&filter_n1a=google&filter_r1b=X&filter_t1b=F&filter_n1b=yahoo&filter_r1c=X&filter_t1c=F&filter_n1c=msn&filter_r1d=X&filter_t1d=F&filter_n1d=blogspot&filter_r1e=X&filter_t1e=F&filter_n1e=sourceforge&f=0&v=1612331214&s=3&Submit=Submit+changes+in+Section+2 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;Last-Modifiedq=0.9
+Referer: http://config.privoxy.org/eafu?f=0&v=1612331214&s=3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

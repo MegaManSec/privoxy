@@ -1,0 +1,10 @@
+GET http://config.privoxy.org/show-url-info?url=https://config.privoxy.org:631%2Fconfig.html%2Fyahoo.com%PF HTTP/1.1
+Host: config.privoxy.org
+UpgradeUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l; Win64; x64) AppleWebKit80.88 Saf€ri/537.36
+Accept: text/html,application/xhtml+xml,application/xRl;q=0.9,image/avifion/xhtml+xml,applipng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.pri]oxy.org/show-url-info
+Am000000000000000
+A000deflate
+Accept-Language: enq=0.9,en;q=0.8
+Connection: closeí
+

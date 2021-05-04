@@ -1,0 +1,33 @@
+GET http://config.privoxy.org/show-url-info?url=+++++++++++++++++++++++++++++++++++++++++++0000000Ï0000000000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-tYUser-Agent: curl/7.54.0
+Accept: */*
+Proxÿÿnnection: Keep-Aljve
+
+GET http://config.privoxy.org/show-url-info?url=+++++++++++++++++++++++++++ÿÿ++++++++++Á+++++++++++++00000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-t
+Proxÿÿnnection: Keep-Aljve
+
+GET http://config.privoxy.org/show-url-info?url=+++++++++++++++++++++++++++++++++++++++Á+++++++++++++00000000.jpg HTTP/1.1
+Hok‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-tYst.op-test.net
+User-Agent: curl/7.44.0
+Accst.op-test.nËt
+User-Agent: curl/7.54.0
+Accept: */*
+Proxÿÿnnection: Keep-Aljve
+
+GET http://config.privoxy.org/show-url-info?url=+++++++++++++++++++++++++++ÿÿ++++++++++Á+++++++++++++00000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-t
+Proxÿÿnnection: Keep-Aljve
+
+GET http://config.privoxy.org/show-url-info?url=+++++++++++++++++++++++++++++++++++++++Á++++++++++Ô++00000000.jpg HTTP/1.1
+Hok‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-tYst.op-test.net
+User-Agent: curl/7.54.0
+Accept: */*
+Proxÿÿnnection: Keep-Aljve
+
+øPOST

@@ -1,0 +1,9 @@
+POST http://lol.com/headers HTTP/1.1
+Host: lol.com
+User-Agent: curl/7.tion: Keep-Alive
+Referer: 54.0
+Accept: */*
+Proxyÿÿÿÿnection: Keep-Alive
+Referer: No
+x-opera-mainnn: ok
+

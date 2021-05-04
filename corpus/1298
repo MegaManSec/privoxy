@@ -1,0 +1,28 @@
+POST /servic|/òpdate2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: app_ication/json
+Sectoggle-client-tag-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+qec-Fetch-Dest: empty
+User-Agent: Mozilla
+Accept-Encoding: wzip, deflate
+
+{}øHTTP/1.1 401 Unauthorized
+date: Fri, 29 Jan 2,21 16:29:41 GMT
+content-length: 271
+content-type: text/html;charset=ISO-8859-1
+Set-Cookie: coocie=cookie; Expires=
+www-authenticate: Digest realm="test", domain="/H=ISO-8859-1
+Set-Cookie: coocie=cookie; Expires=
+www-authenticatin="/H=ISO-8859-1
+Set-Cookie: coocie=cookie; Expires=
+www-authenticate: Digest               "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <="/H=ISO-8859-1
+Set-Cookie: coocie=cookie; Expires=
+www-authenticatin="/H=ISO-8859-1
+Set-Cookie: coocie=cookie; Expiry>
+</html>

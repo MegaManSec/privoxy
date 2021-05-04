@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=X&block=X&block_mode=Nn+reason+specified.&change_x_forwarded_for=X&change_x_forwarded_f³Ù™–“‹š ‘ÍÈÂ‘˜šÒšŠšŒ‹ŒÙ™–“‹š ÍÇÂ§Ù™–“‹š ‹ÍÇÂ³Ù™–“‹š ‘ÍÇÂœ“–š‘‹Ò–Ò››šŒŒÙ™–“‹š ÍÆÂ§Ù™–“‹š ‹ÍÆÂ³Ù™–“‹š ‘ÍÆÂ“–Œ‹š‘Ò››šŒŒÙ™–“‹š ÍÂ§Ù™–“‹š ‹ÍÂ³Ù™–“‹š ‘ÍÂ—‹‹Ò’š‹—›Ù™–“‹š ÍÂ§Ù™–“‹š ‹ÍÂ³Ù™–“‹š ‘ÍÂ““ˆÒŒ‹Ù™–“‹š ÍœÂ§Ù™–“‹š ‹ÍœÂ³Ù™–“‹š ‘ÍœÂœ’“š‹šÒŠ“Ù™–“‹š Í›Â§Ù™–“‹š ‹Í›Â³Ù™–“‹š ‘Í›ÂŠster_t2e=L&filter_n2e=referer&filter_r30=X&filter_t30=L&filter_n30=privoxy-control&content_type_overwrite=Y¦content_type_overwrite_mode=text%2Fhtml&crunch_client_header=X&crunch_client_header_mode=X-Whatever%3A&crunch_if_none_match=X&crunch_incoming_cookies=X&crunch_outgoing_cookies=X&crunch_server_header=X&crunch_server_header_mode=X-Whatever%3A&deanimate_gifs=X&deanimate_gifs_mode=last&delay_response=X&delay_response_mode=100&downgrade_http_version=X&external_content_filter_all=X&fast_redirects=Y&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submit=Submit+changes+in+Section+1 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/html,application/xhtml+xml,application/xml;=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0&v=1612392197&s=5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

@@ -1,0 +1,375 @@
+GET http://config.privoxy.org/toggle?set=0000000 HTTP/1.1
+Host: 0
+User-AgentGET http://config.privoxy.org/toggle?set=0000000 HTTP/1.1
+HostGET http://config.privoxy.org/edit-actions-list?00=0000000000&f=0 HTTP/1.1
+Host:00000000000
+U000000000000000000000000: 0
+User-Agent:00000000
+A00000: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Referer: 00000000000000000000000000000000000000000000000
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Host: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-reãove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%0000000 HTTP/1.1
+Host: 0000CONNECT 0000.000:443 'TTP/1.1
+Host:00
+Ustent-type:0text/plain
+0000:0"00"
+000000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Ued,00
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Lost: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-remove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%00000r-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Wed, 03 edit-actions-listFeb000000000000000000000000000000000000000000000000000000
+Referer: 00000000000000000000000000000000000000000000000
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTT°-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Host: p.p
+Uslr-00000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%0000000 HTTP/1.1
+Host: 0000CONNECT 0000.000:443 'TTP/1.1
+Host:00
+Ustent-type:0text/plain
+0000:0"00"
+000000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Wed,000000000000
+U000000000000000000000000: 0
+User-Agent:00000000
+A00000: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ˇˇˇ00000000000000000000000000000
+Referer: 00000000000000000000000000000000000000000000000
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Host: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-reãove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%0000000 HTTP/1.1
+Host: 0000CONNECT 0000.000:443 'TTP/1.1
+Host:00
+Ustent-type:0text/plain
+0000:0"00"
+000000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Ued,00
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Lost: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-remove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%00000r-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Wed, 03 edit-actions-listFeb000000000000000000000000000000000000000000000000000000
+Referer: 00000000000000000000000000000000000000000000000
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTT°-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Host: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-reãove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%0000000 HTTP/1.1
+Host: 0000CONNECT 0000.000:443 'TTP/1.1
+Host:00
+Ustent-type:0text/plain
+0000:0"00"
+000000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Wed,00
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0 2Ä00 00:00:
+
+¯GET / HTTP/1.1
+Host: p.pGET http://w.awin1.com/0.php00000000000000000=http:// HTTP/1.1
+Host: 000000st: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Ued,00
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Lost: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-remove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1U
+Ho000%00000r-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Wed, 03 edit-actions-listFeb000000000000000000000000000000000000000000000000000000
+Referer: 00000000000000000000000000000000000000000000000
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000000000
+t: 00 00000000
+AcceCONNEcT Content-MD5:43 HTTP/1.1
+Host:00000000
+Usur-Agent:000000000000
+Acc000:0000
+ProxyConnection:0&0000000œœÚı
+ﬁ
+Accept-EGET /edit-actions-add-url HTTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-AgeTP/1.1
+Host: p.p
+000000:0005
+
+¯GET /edit-actions-add-url HTTP/1.1
+Host: p.pGET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0 2Ä00 00:00:
+
+¯GET / HTTP/1.1
+Host: p.pGET http://w.awin1.com/0.php00000000000000000=http:// HTTP/1.1
+Host: 000000000000
+t: 00 00000000
+AcceCONNEcT Content-MD5:43 HTTP/1.1
+Host:00000000
+Usur-Agent:000000000000
+Acc000:0000
+ProxyConnection:0&0000000œœÚı
+ﬁPOST9/ HTTP/1.0
+Host: 000000.000
+Connection:00000œœ0
+
+GET http://w.awin1.com/0.php00000000000000000=http:// HTTP/1.1
+Host: 000000000000t: 00 00000000
+0000000000000000000000000000000000000000000AcceCONNEcT Content-MD5:43 HTTP/1.1
+Host:00000000
+Usur-Agent:000000000F00
+Acc000:0000
+ProxyConnection:0&0000000œœÚı
+ﬁPOST9/ HTTP/1.0
+Host: 000000.000
+Connection:00000œœ0
+
+GEAcc000:0000
+ProxyCoxy.org/eafu?f=0&00&s=0 HTTP/1.1
+Hoåã:0000000
+Å000000000000000000000000:00
+User-Agent: 0000000
+A00000: 000000000000e””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””

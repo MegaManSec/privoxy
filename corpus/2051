@@ -1,0 +1,30 @@
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: application/jsonò
+Sec-FetchLSite: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla
+Accept-Encoding: gzip, deRlate
+
+{}øHTTP/1.1 401 Unauthorized
+date: Fri, 29 Jan 2-1
+Set-Cookie: cookie=cookRe; Expire
+www-authenticate: Digest realm=t=ISO-8859-1
+Set-Cookie: cookie=cookRe; Expire
+www-authenticate: Digest realí="test", domain="/HTTP/Digest", nonce="efead82210defa9c5efc36e0ebccb469"
+strict-transport-security: max-Bge=15552015; in ludePubDo‹ains; preload
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+conn Unauthorized
+date: Fri, 29 Jan 2-1
+Set-Cookie: cookie=cookRe; Expire
+www-authenticate: Digest realm=t=ISO-885rg/TR/htkl4/loose.dtd">
+<html>
+<head>
+ <title>Unauthorized<//head>
+<body>
+<h1>Unauthorized access</h1><p>You are denied access to this resource.</body>
+</html>

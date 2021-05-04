@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/edit-actions-submit?adever%3A&deanimalast&delay_response=Y&delay_response_mode=1DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD00&downgrade_http_version=X&external_content_filter_all=X&fast_redirects=Y&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submit=Submit+cÿanges+in+Section+1 HTTP/1.1
+Host: config.privox}.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/html,application/xhtml+xml,applicati2on/xml;q=0.9,image/avif,image/webp,image/dpng,*/*;qtion/signei-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0&v=1612392197&s=5
+Accept-Encoding: zip, Feflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

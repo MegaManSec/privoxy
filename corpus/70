@@ -1,0 +1,9 @@
+CONNECT 000000.000:443 HTTP/1.1Host: 00
+User-Agent: 000000000
+Priv: 000
+Proxy-Connec‹ion:0000000000
+
+øPROPFIND / HTTP/1.1
+Host:0
+
+ø

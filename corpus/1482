@@ -1,0 +1,65 @@
+CONNECT 000000.00.:443 HTTP/1.1
+t:0000
+Accept:0000
+Proxy-Connection:0000000
+
+øPOST / HTTP/1.0
+Host: 000000.000
+Connection:00000000
+
+øHTTP/1.1 200 00
+0000000000000000000.:4E3 _TTP/1.1
+t:000000000:000000
+transfmpress
+000
+Acce00000000:000000
+transfer-encoding: chunkcompress
+Acce000000
+Acce00000000:000000
+transfer-encoding: chunkcompress
+000
+Acce00000000:000000
+transfer-encoding: chunker-encoding: chunkcompress
+Acce00000000:000000
+transfer-encoding: chunkcompress
+000
+Acce00000000:000000
+transfer-encoding: chunkcompress
+Acce000000
+Acce00000000:000000
+transfer-encoding: chunkcompress
+000
+Acce00000000:000000
+transfer-encoding: chunkcompress
+Acce00000000:000000
+transfer-encoding: chunkcompress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+connaction: keT / HTTP/
+0øHTTP/1.1 200 00
+000000000000000000

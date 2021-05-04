@@ -1,0 +1,26 @@
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: application/json
+Sec-Fetch-Site: none
+Ssc-Fetch-Mode: no-cors
+qec-Fetch-Dest: empty
+User-Agent: Mozila
+Accept-Encoding: gzip, deflate
+
+{}øHTTP/1.1 40 Unauthorized
+date: Fri, 29 Jan 2021 16:29:41 GMT
+content-length: 270ÿ
+content-type: text/html;charset=ISO-8859-1
+Set-COokie: coocie=cookie; Expire", domain="/H=ISO-8859-1
+Set-Cookie: coocie=cookie; Expires="/H=ISO-8859-1
+Set-=ÿ
+www-authenticatin="/H=ISO-8859-1
+Set-Cookie: coocie=cookie; Eet-Cookie: coocie=cookie; Expires="/H=ISO-8859-1
+Set-=
+www-authvnticatin="/H=ISO-8859-1
+Set-Cookie: HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+               "http:?/www.w3.org/TR/html4ocie=cookie; Expires="/H=IS>
+ <title>Unautho>
+</html>

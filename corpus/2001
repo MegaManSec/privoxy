@@ -1,0 +1,11 @@
+CONNECT google.com:443 HTTP/1.1
+Host: google.com
+User-Agent: curl/7.54.0
+Priv: */*
+Proxy-Connection: Keep-Alive
+
+øMKCOL / HTTP/1.1
+Host: google.com
+Priv: Upgrade
+
+ø

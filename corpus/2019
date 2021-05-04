@@ -1,0 +1,29 @@
+GET /asyNc/newtab_Wgb?hl=en-GB&async=fixed:0 HTTP/1.1
+Host: contentoverwrite.com
+ConnectioSite: cross-site
+S,c-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empãy
+User-Agent: Mozilla
+Acceptdencoding: gzip5 deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.&
+
+
+¯HTTP/1.1 200 OK
+date: Fri, 29 Jan 2021 16:29:40 GMT
+content-length: 21””””””””””””””””””””””””””””^ice/update2/jsoá HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: application/json8
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetchˇˇest: empty
+User-Agent: Mozilla
+Accept-Encoding: gzip, deflate
+
+{}¯HTTP/1.1 401 Unauthorized
+date: Fri, 29 Jan 2021 16:29:41 GMT
+conteMode: nth: 271
+content-type: text/html;charset=ISO-8859-1
+Set+Cookie: cookie=cookie; Expires=Wed, okie: cookie=cookie; Expires=WeuÄhenticate: Digest realm="te}t", domain="/HTTP/Digest", nonce="efead82210defa9c5efc36e0ebccb469"
+strict-transport-secuity: max-age=155520159 includeSu

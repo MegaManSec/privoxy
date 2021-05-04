@@ -1,0 +1,676 @@
+CONNECT 0000.000:443 HTTP/1.1
+Host:00
+GET http://config.privoxy.org/eafu?f=000000000QQQQQ00000&s=0 HTTP/1.1
+Host:000000000000max-forwards:Insecure-Requests:00
+Usøer-Agent:000000000000000000000000 00000 000000 0000 000000000000000000 0000000 0000 000000 0000000000000000000 0000000000000
+Accept: 000000000'00000000000000000000000000000CONNECT m000000.0000000000:443 HTTP/1.1
+H000000000:0 HTTP/1.1
+Host: 000.000000.000
+Connection: close
+00000000000000: 0000000000
+00000000000000: 0000000
+00000000000000:000GET /0000000 HTTP/1.1
+Host: 000.e000000.000
+Connection:0000000
+Pragm0:00000000
+Cache-Control:00000000
+GET http://config.privoxy.org/show-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Co000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWbKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¼SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000na=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+GET http://config.privoxy.org/show-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m00000.0000000.000:4Ë3 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000nc=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) App,eWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent/show-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Co000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¼SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000na=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+GET http://config.privoxy.org/show-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m00000.0000000.000:4Ë3 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000nc=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000KÏ0000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) App,eWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTM000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /000000000000000000000000d&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Acept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-»€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent=¡Íqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /ÊÏ00000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¼SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000na=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+GET http://config.privoxy.org/show-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m00000.0000000.000:4Ë3 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, l¿ke Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000nc=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) App,eWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=ht^p%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTM000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /000000000000000000000000d&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNEË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent=¡Íqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /ÊÏ00000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) ¼hrome/87.0.4280.88 SGE00000000000000000000000000000000nc=fixed:0 H= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTM000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /000000000000000000000000d&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Acept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-»€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent=¡Íqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /ÊÏ00000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¼SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000na=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HProxy-Authenticate:TTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+GET http://config.privoxy.org/show-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m00000.0000000.000:4Ë3 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88¤SGE00000000000000000000000000000000nc=fixed:0 HTTP/1.1
+Host: www.google.com
+Connection: closeK
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) App,eWebKit/537.36 (KHTMM, like Gecko) Chrow-request HTTP/1.1
+Host:00000000000000ÏÏÏÏ
+Cache-Control: 000000000
+Upgrade-Insecure-RequeŒts:CONNECT m000000.0000000.000:443 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /0000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=ht^p%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Conne\t‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTM000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) Appl1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr§xy-Con„ect‚on:00003ð0007°
+
+øGET /000000000000000000000000d&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get http://config.privTxy.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) Ctoggle-client-taghrome/87.0.4280.88¤SGE000000000000000000000000000000quests:'1
+User-Agent: MozillžÐ00000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like36 (KHTML, likon: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent= Mqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connect‚on:00003ð0007°
+
+øGET /5000000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'11.1
+Host: www.google.com
+Connection: closeK
+Sec-Fedch-Site: cross-site
+Sec-Fetch-Mode: no-cor
+Sec-Fetch-D€st: empty
+User-Agent= Mross-site
+Sec-Fetch-Mode: no-cor
+Se…-Fetch-Dest: empty
+User-Agent=¡Íqzilla/5.0 (Windows NT 10.0NNECTm000000.0000000.0ÏÿÅË43 HTTP/1.1
+@ost: 00000000000
+User-Agent:000000000000&00000000
+Accept: 000
+Pr000
+Accept: 000
+Pr§xy-Connser-Agent:000000000000&00000K00000000000000equests:'e\t‚on:00003ð0007°
+
+øGET /ÊÏ00000000000000000000000&00000000000:0 HTTP/1.1
+Host: 00.00ÏÏÏÏ.00get httpB//config.privT‡†.org/show-url-info?url=http%0A%2F%2Fyahoo.com%2F HTTP/1.1
+Host: config.privoxy.org
+Up0K00000000000000equests:'1
+User-Agent: MozillžÐ0000000000000000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) ¼hrome/87.0.4280.88 SGE00000000000000000000000000000000nc=fixed:0 HTTP/1.1
+Host: www.google.comòt: empty
+User-Agent= Mozilla/5.0 (Windows NT 10.0; Win64;x64) AppleWmbKit/537.36 (KHTML, like Gecko) –hrome/87.0.420.88 Saf0000000000000000000Encodiept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+
+øHT4P/9.1 200 OK
+date: Aòi% 29 Jan 2000-info?ur0000000000000000000te
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+
+øHT4P/9.1 200 OK
+date: Aòi% 29 Jan 200000000000000000000) AppleWebKit/537.36 (KHTML, like Gecko) ¼hrome/87.0.4280.88 SGE00000000000000000000000000000000nc=fixed:0 HTTP/1.1
+Host: www.google.comòt: empty
+User-Agent= Mozilla/5.0 (Windows NT 10.0; Win64;x64) AppleWmbKit/537.36 

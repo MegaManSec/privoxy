@@ -1,0 +1,8 @@
+POST http://lol2.com/headers HTTP/1.1
+Host: lol2.com
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+Referer: No
+x-opera-mainnn: ok
+

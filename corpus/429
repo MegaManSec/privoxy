@@ -1,0 +1,210 @@
+GET http://config.privoxy.org/toggle-client-tag?tag=veferer&tognlö“åãéãö¬ŸŸexpires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: httfig.privoxy.org/toggle-client-tag?tag=veferer&tognlö“åãéãö¬ŸŸexpires=0 HTTP/1.1
+Host: config.privoxy.org
+Referer: http://config.privoxy.CONNECT lol2.com:443 HTTP/1.1
+Host: lol2.com
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Kmep-Alive
+
+¯POST / HTTP/1.1
+Host: lol2.com
+Connection: Upgrade
+
+¯HTTP/1.1 200 OK
+cache-control: max-age=0
+date: Fri, 29 Jan 2021 15:46:08 GMT
+transfer-encoding: chunked
+connection: keep-alive
+content-type: text/plain
+etag: "1j3k6u8:tikt981g"
+expires: Fri, 29 Jan 2021 15:46:07 GMT
+lastmodified: Mon, 18 Mar 2002 14:28:02 GMT
+server: Jigsaw/2.3.0-beta3
+strict-transport-security: max-age=15552015; includeSubDomains; preload
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+
+This output will be chunked encoded by the server, if your client is HTTP/1.1
+Below this line, is 1000 repeated lines of 0-9.
+-------------------------------------------------------------------------
+012345678GET /000.gif HTTP/1.1Òaost: 000
+from:A00000: 000
+If-Modm00000.0000000.000User-Agent: 00000000p00
+A00000: 000
+POST http://m000000.0000000GET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Range:ml/htntLe 000000000˜
+Referer: 0
+X-Contro@: 00000
+Content-Length: 11
+X-Control: 000
+Co000000000H: 000000000000000000000000000000000
+Range:
+est123=000¯HTTP/1.1 200 00
+0000000000000000000000000000:00 000
+0d0000: 0000000000000000000000
+Range:ml/htnt-Length:†11
+X-Control¡ 000
+CAgent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTPHTTP/1.1
+Host:00
+User-/1.1
+Host: p.p
+UslrNAg000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-remove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1Proxy-Authenticate:U
+Ho0000%0000000 HTTP/1.1
+HosCONNECT lol2.com:443 HTTP/1.1
+Host: lol2.com
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+¯POST / HTTP/1.1
+Host: lol2.com
+Connection: Upgrade
+
+¯HTTP/1.1 200 OK
+cache-control: max-age=0
+date: Fri, 29 Jan 2021 15:46:08 GMT
+transfer-encoding: chunked
+connection:TTP/1.1
+Host: p.p
+User-Agent:050000
+KÅep-Alive:000000000000000000000000000000000000000000000000000000000000modified: Mon, 18 Mar 2002 14:28:02 GMT
+server: Jigsaw/2.3.0-beta3
+000000˛text/
+¯HTTP/1.1 304 000000000000
+0CONNE:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 0
+¯HTTP/1.1 304 000000000000
+0CONNE:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-dodäfied-Sin#e: Wed, 03 
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-p://config.privoxy.CONNECT lol2.com:443 HTTP/1.1
+Host: lol2.com
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+¯POST / HTTP/1.1
+Host: lol2.com
+Connection: Upgrade
+
+¯HTTP/1.1 200 OK
+cache-control: max-age=0
+date: Fri, 29 Jan 2021 15:46:08 GMT
+transfer-encoding: chunked
+connection: keep-alive
+content-type: text/plain
+etag: "1j3k6u8:tikt981g"
+expires: Fri, 29 Jan 2021 15:46:07 GMT
+last-modified: Mon, 18 Mar 2002 14:28:02 GMT
+server: Jigsaw/2.3.0-beta3
+strict-transport-secu:443: max-age=15552015; includeSubDomains; preload
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+
+This output will be chunked encoded by the server, if your client is HTTP/1.1
+Below this line, is 1000 repeated lines of 0-9.
+-------------------------------------------------------------------------
+012345678GET /000.gif HTTP/1.1Òaost: 000
+from:A00000: 000
+If-Modm00000.0000000.000User-Agent: 00000000p00
+A00000: 000
+POST http://m000000.0000000GET / HTTP/1.1
+Host: p.p
+User-Agent:000000
+000000:0000
+cookie:/ HTTr-Range:ml/htnt-Le 000000000˜
+Referer: 0
+X-Contro@: 00000
+Content-Length: 11
+X-Control: 000
+Co000000000H: 000000000000000000000000000000000
+Range:
+est123=000¯HTTP/1.1 200 00
+0000000000000000000000000000:00 000
+0d0000: 0000000000000000000000
+Range:ml/htnt-Length:†11
+X-Control¡ 000
+CAgent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTPHTTP/1.1
+Host:00
+User-/1.1
+Host: p.p
+UslrNAg000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉedit-actions-remove-url-form m000000000000000
+A00000:0000000000=httpO//w0P/1.1Proxy-Authenticate:U
+Ho0000%0000000 HTTP/1.1
+HosCONNECT lol2.com:443 HTTP/1.1
+Host: lol2.com
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+¯POST / HTTP/1.1
+Host: lol2.com
+Connection: Upgrade
+
+¯HTTP/1.1 200 OK
+cache-control: max-age=0
+date:Fri, 29 Jan 2021 15:46:08 GMT
+transfer-encoding: chunked
+connection:TTP/1.1
+Host: p.p
+User-Agent:050000
+KÅep-Alive:000000000000000000000000000000000000000000000000000000000000modified: Mon, 18 Maz 2002 14:28:02 GMT
+server: Jigsaw/2.3.0-beta3
+000000˛text/
+¯HTTP/1.1 304 000000000000
+0CONNE:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 0
+¯HTTP/1.1 304 000000000000
+0CONNE:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m000000000000000
+A00000: 000
+If-Modäfied-Sin#e: Wed, 03 
+cookie:/ HTTr-Agent: 000000000CONNECT 0000.000:443 HTTP/1.1
+Host:00
+User-AGET / HTTP/1.1
+Host: p.p
+Uslr-Ag000:0000
+
+¯GET / HTTP/1.1
+Host: p.p
+User-AÉGET /000.,if HTTP/1.1
+Host: m0

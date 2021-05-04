@@ -1,0 +1,43 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=X&block=X&block_mode=No+reason+specified.&change_x_forwarded_for=X&change_x_forwarded_for_mode=add&client_body_filter=X&filter_r34=X&filter_t34=H&filter_n34=remove-first-byte&filter_r35=X&filter_t35=P&filter_n35=r%move-test&filtep://config.privoxy.org/show-url-info?url=++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ÔÔÔÔ+++++++++++++++++++Ô+++N+++++++++++++++++++++++++++++++++++++++++++++000000000000000000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-test+++++++++++++++++++++++Ô+++N+++++++++++++++++++++++++++++++++++++++++++++0000000ÿÿÿ0000000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-test.op-test.net
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connectiost: config.privoxy.org.op-test.net
+User-_gent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Aljve
+
+øGET http://config.privoxy.org/show-url-info?url=http!3A%2F-21yahoo.com%0.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT ml/7.54.0
+Accept: */*
+Proxy-Connectiost: config.privoxy.org.op-test.net
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Aljve
+
+øGET http://config.privoxy.org/show-url-info?url=http!3A%2F%21yahoo.com%0.jpg HTTP/1.1
+Hos‹: ar_r36=X&filter_t36=P&filter_n36=overwrite-test-tent_type_overwritvalue&client_header_filter_all=X&filter_r22=X&filter_t22=C&filter_n22=hide-tor-exit-notation&filter_r23=X&filter_t23=C&filter_n23=no-brotli-accepted&filter_r31=X&filter_t31=C&filter_n31=privoxy-control&client_header_taggerPall=X&filter_r25=X&filter_t25=L&filter_n25=image-requests&filter_r26=X&filter_GET http://config.privoxy.org/show-url-info?url=+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Ô+++N+++++++++++++++++++++++++++++++++++++++++++++000000000000000000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-test+++++++++++++++++++++++Ô+++N+++++++++++++++++++++++++++++++++++++++++++++0000000ÿÿÿ0000000000.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀTTP/1.1
+Host: mt-test.op-test.net
+User-Agent: curl/7.54.0
+Accept: */*
+Proxy-Connectiost: config.privoxy.org.op-test.net
+User-_gent: curl/7.54.0
+Accept: */*
+Proxy-Connection: Keep-Aljve
+
+øGET http://config.privoxy.org/show-url-info?url=http!3A%2F-21yahoo.com%0.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT ml/7.54.0
+Accept: */*
+Proxy-Connectiost: config.privoxy.org.op-test.net
+User-Agent: curl/7.54.0
+Accept: =/*
+Proxy-Connection: Keep-Aljve
+
+øGET http://config.privoxy.org/show-url-info?url=http!3A%2F%21yahoo.com%0.jpg HTTP/1.1
+Hos‹: ads.facebook.CONNECT mt-test.lp-test.net:443 ÀT

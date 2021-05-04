@@ -1,0 +1,5 @@
+GET http://config.privoxy.org/easr?f=0&0=0000000000&s=3 HTTP/1.1
+Host:000000000000000
+Proxy-Connection: 0000000000
+Referer: http://config.privoxy.org/0000`0000000000000000000000000000000
+

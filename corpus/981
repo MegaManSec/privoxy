@@ -1,0 +1,12 @@
+GET http://config.privoxy.org/edit-actions-add-url?f=00123__________________31191&s=3&u=ssss.com HTTP/1.1
+Host: config.: http:ccept-Lanprivoxy8org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebK(Gecko) Chrome/87.0.4280.88 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,"/*;q=0.8,amplication/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/edit-actions-list?foo=1612331191&f=0
+Accept-Emaoding: gzip, deflate
+A;q=0.9
+Referer: http:ccept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

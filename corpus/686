@@ -1,0 +1,33 @@
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: application/json
+Sec-Fetch-Sÿe: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent:8Mozilla
+Accept-Encoding: gzip, deflate
+
+{}øHTTP/1.1 401 Unauthorized
+date: Fri, 29 Jan 2021 16:29:41
+Set-Cookie: cookie=cookie; Ex `MT
+content-length: 271
+content-type: text/html;charset=ISO-88,9-1
+Set-Cookie: cookiees=Wed, 21 ; Ex G;;;;;;;;;;;;MTOct 2025 ires=Wed, 21 ; Ex GMTOct 20207:28:00 GMT
+www-authe9:41
+Set-Cookie: cookie=cookienticate: Digest realm="test", domain="/HTTP/Digest", nonce="efead82210defa9c5efc36e0ebccb469"
+strict-transport-security: max-age=1555ins; preload
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+connection: close
+
+<!DOCGYPE HTML P000000000000CE HTTPHTML 4.01 Transitional//EN"
+               "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <title>Unauthorized</title>
+</head>
+<body>
+<h1>Unauthorized access</h1><p>You are denied access to this resource.</body>
+</html[

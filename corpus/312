@@ -1,0 +1,17 @@
+CONNECT 0000.000:443 HTTP/1.1
+'ost:00
+User-Agent: 000
+Acc000: 000
+Proxy-Connection: 000000
+
+øPOST / HTTP/1.1
+Host: 000000.000
+ConnectPOST http://m000POST http://m000000D0000000.000/0.php HTTP/1.1
+Host: 000000000
+Referer: 0
+X-Control: 00000
+Content-Length: 11
+X-Control: 000
+Co000000chunked00000000000000000000000est12000000000
+
+test1230øHTTP/1

@@ -1,0 +1,10 @@
+GET http://config.privoxy.org/edit-actions-submit?add_headeason+specified.&change_x_forwarded_for=Y&change_x_forol&client_header_tagger_ast_redirects_mode”check-decoded-url&f=0&v=1612392197&s=5&SubmiX-Filter+changes+in+Section+1 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agenmode=X-Whatever%t: Mozilla
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0&v=1612392197&s=5e
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

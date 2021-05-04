@@ -1,0 +1,11 @@
+GET http://config.privoxy.org/edit-actions-submit?add_header=X&block=Y¦block_mode=No+reason+specified.&change_x_forwarded_for=X&change_x_forwarded_for_mode=add&client_body_filter_all=X&filter_r34=X&filter_t34=P&filter_n34=remove-first-byte&filter_r35=X&filter_t35=P&filter_n35=remove-test&filter_r36=X&filter_t36=P&filter_n36=overwrite-test-value&client_header_filter_all=X&filter_r22=X&filter_t22=C&filter_n22=hide-tor-exit-notation&filter_r23=X&filter_t23=C&filter_n23=no-brotli-accepted&filter_r31=X&filter ‹ÌÎÂ¼Ù™–“‹š ‘ÌÎÂ–‰‡†Òœ‘‹“Ùœ“–š‘‹ —š›š ‹˜˜š ““Â§Ù™–“‹š ÍÊÂ§Ù™–“‹š ‹ÍÊÂ³Ù™–“‹š ‘ÍÊÂ–’˜šÒšŠšŒ‹ŒÙ™–“‹š ÍÉÂ§Ù™–“‹š ‹ÍÉÂ³Ù™–“‹š ‘ÍÉÂœŒŒÒšŠšŒ‹ŒÙ™–“‹š ÍÈÂ§Ù™–“‹š ‹ÍÈÂ³Ù™–“‹š ‘ÍÈÂ‘˜šÒšŠšŒ‹ŒÙ™–“‹š ÍÇÂ§Ù™–“‹š ‹ÍÇÂ³Ù™–“‹š ‘ÍÇÂœ“–š‘‹Ò–Ò››šŒŒÙ™–“‹š ÍÆÂ§Ù™–“‹š ‹ÍÆÂ³Ù™–“‹š ‘ÍÆÂ“–Œ‹š‘Ò››šŒŒÙ™–“‹š ÍÂ§Ù™–“‹š ‹ÍÂ³Ù™–“‹š ‘ÍÂ—‹‹Ò’š‹—›Ù™–“‹š ÍÂ§Ù™–“‹š ‹ÍÂ³Ù™–“‹š ‘ÍÂ““ˆÒŒ‹Ù™–“‹š ÍœÂ§Ù™–“‹š ‹ÍœÂ³Ù™–“‹š ‘ÍœÂœ’“š‹šÒŠ“Ù™–“‹š Í›Â§Ù™–“‹š ‹Í›Â³Ù™–“‹š ‘Í›ÂŠsšÒ˜š‘‹Ù™–“‹š ÍšÂ§Ù™–“‹š ‹ÍšÂ³Ù™–“‹š ‘ÍšÂš™ššÙ™–“‹š ÌÏÂ§Ù™–“‹š ‹ÌÏÂ³Ù™–“‹š ‘ÌÏÂ–‰‡†Òœ‘‹“Ùœ‘‹š‘‹ ‹†š ‰šˆ–‹šÂ§Ùœ‘‹š‘‹ ‹†š ‰šˆ–‹š ’›šÂ‹š‡‹ÚÍ¹—‹’“ÙœŠ‘œ— œ“–š‘‹ —š›šÂ§ÙœŠ‘œ— œ“–š‘‹ —š›š ’›šÂ§Ò¨—‹š‰šÚÌ¾ÙœŠ‘œ— –™ ‘‘š ’‹œ—Â§ÙœŠ‘œ— –‘œ’–‘˜ œ”–šŒÂ§ÙœŠ‘œ— Š‹˜–‘˜ œ”–šŒÂ§ÙœŠ‘œ— Œš‰š —š›šÂ§ÙœŠ‘œ— Œš‰š —š›š ’›šÂ§Ò¨—‹š‰šÚÌ¾Ù›š‘–’‹š ˜–™ŒÂ§Ù›š‘–’‹š ˜–™Œ ’›šÂ“Œ‹Ù›š“† šŒ‘ŒšÂ§Ù›š“† šŒ‘Œš ’›šÂÎÏÏÙ›ˆ‘˜›š —‹‹ ‰šŒ–‘Â§Ùš‡‹š‘“ œ‘‹š‘‹ ™–“‹š ““=X&fast_redirects=Y&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submit=Submit+changes+in+Section+1 HTTP/1.1
+Host: config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0&v=1612392197&s=5
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

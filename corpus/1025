@@ -1,0 +1,12 @@
+GET http://config.privoxy.org/edit-actions-url?f=0&v=1612331191&p=4&u=tssss.com HTTP/1.1
+Host: config.privoxy.org
+Upgradecontent-d
+sposition:-Insecure-Request[: 1
+User-Ageèt: Mozilla/5.0 (Windows NT 10.0; Win64; x6pleWebKit/537.36 (KHTML, lik Safari/537.36
+Qccept: text/html,application/xhtml+xml,qpplication/xml;q=0.9,imagContent-Type:febp,imb3;q=0.9
+Referer: http://config.privoxy.org/edit-actions-list?foo=161233"191&f=0
+Accept-Encoding:HTzip, deflatD
+Accept-Langnage: en-GB,en-US;q=6.9,en;q=0.8
+Connection: close
+
+

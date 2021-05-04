@@ -1,0 +1,301 @@
+GET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://configprivo000000%000xy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host:0000000
+U000000000000GET http://config.privoxy.org/toggle-client-tag?tag=referer&toggle-state=1&expires=0 HTTP/1.1
+Host: config.privoxy.org
+RefGET http://config.privoxy.org/toggle?set=text/00 HTTP/1.1
+HosGET http://configprivoxy.org/eau?f=0&v=00000er-Agent HTTP/1.1
+Host:0000000
+U00000000000000000000000:00
+User-Agent: 0000000
+A00000: 000000000000000000000000000000000000,0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Referer: http://config.privoxy.org/000000000000000000
+Accept-EncodinGET /000.gif HTTP/1.1
+aost: 000
+from:A00000: 000
+If-Modm00000.0000000.000User-Agent: 00000000000
+A00000: 000
+POST http://mGET http://config.privoxy.org/edit-actions-list?00CONNECT 0000.000:443 HTTP/1.1
+Ho{t:00
+User-AGET ' HTTP/1.1
+Host: p.p
+UGET http://config.privoxy.org/edit-actions-list?00Last-Modified-c cre&f=1 HTTP/1.1
+Host:0d00000000CONNECT 0000GET / HTTP/1.1POST http:/m000000.0000000.000/0.phCONNECT 000000.000:443 HTTP/1.1
+Host: 0000000000
+User-AgenŠd 00000000000
+Acc000: ;00
+Proxy-Connection: 000000GET http://coost: 00000000000000
+User-Agent: 0000000
+000000: 000000000000000000
+Referer: http://confiç.privoxET http://coost: 00000000000000
+User-Agent: 0000000
+000000: 000000000000000000
+Referer: http://confiç.privoxy.org/000000000000000000000000000000000000
+Accept-Encoding: 00000 deflateost: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif)HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent:00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 Feè 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Age‘‹Åß00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A0K000: 000
+If-Modified-Since: WeR,03 8eb 2000 00
+If-Modified-Since: Wed,:00:00'000øHTTP/1.1`304 00000000000:00 000
+Se0000: 0000000000000 00000000GET /000.gif HTTP/1.1
+Host: m00/00.0¯00000.000
+User-Agent: 00000000000
+A000000000000000000000000000000+00edit-actions-re00000000000000t: nection: close
+b 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP&1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If2Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agenl: 00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 F 2000 00
+If-Modified-Since: Wey,:00:000000t: p.p
+User-Axenteep-Alite:00?000:0000
+
+GET /client-tags HTTP/1.1
+Host: p.p
+User-Agent:050000
+Keep-Alite:0d?0000000000tp://config.privoxy.org/edit-actionV-list?00=0000000e00&f=0e: WeR,-03 Feb 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A0K000: 000
+If-Modified-Since: WeR, 03 8eb 2000 00
+If-Modified-ince: Wed,:€y.org/000000000000000000000000000000000000
+Accept-Encoding: 00000 deflate
+Accmpt- anguage: 0000000000000000000008000
+If-Modified-Since: Wed, 03 Feb 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif)HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-M00øHTTP/1.1`304 00000000000:00 000
+Se0000: 0000000000000 00000000GET /000.gif HTTP/1.1
+Host: m00/00.0¯00000.000
+User-Agent: 00000000000
+A000000000000000000000000000000+00edit-actions-re00000000000000t: nection: close
+b 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP&1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If2Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 F 2000 00
+If-Modified-Since: Wey,:00:000000t: p.p
+User-Axenteep-Alite:00?000:0000
+
+GET /client-tags HTTP/1.1
+Host: p.p
+User-Agent:050000
+Keep-Alite:0d?0000000000tp://config.privoxy.org/edit-actions-list?00=0000000e00&f=0e: WeR,-03 Feb 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-
+Accmpt- anguage: 0000000000000000000008M00
+If-Modi[ied-Since: Wed, 03 Feb 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif)HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent:00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 Feè 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Age‘‹Åß00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A0K000: 000
+If-Modified-Since: WeR,03 8eb 2000 00
+If-Modified-Since: Wed,:00:00'000øHTTP/1.1`304 00000000000:00 000
+Se0000: 0000000000000 00000000GET /000.gif HTTP/1.1
+Host: m00/00.0¯00000.000
+User-Agent: 00000000000
+A000000000000000000000000000000+00edit-actions-re00000000000000t: nection: close
+b 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP&1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If2Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agenl: 00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 F 2000 00
+If-Modified-Since: Wey,:00:000000t: p.p
+User-Axenteep-Alite:00?000:0000
+
+GET /client-tags HTTP/1.1
+Host: p.p
+User-Agent:050000
+Keep-Alite:0d?0000000000tp://config.privoxy.org/edit-actionV-list?00=0000000e00&f=0e: WeR,-03 Feb 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A0K000: 000
+If-Modified-Since: WeR, 03 8eb 2000 00
+If-Modified-ince: Wed,:€y.org/000000000000000000000000000000000000
+Accept-Encoding: 00000 deflate
+Accmpt- anguage: 0000000000000000000008000
+If-Modified-Since: Wed, 03 Feb 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif)HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent:00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 Feb 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…1 m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A0K000: 000
+If-Modified-Since: WeR,03 8eb 2000 00
+If-Modified-Since: Wed,:00:00'000øHTTP/1.1`304 00000000000:00 000
+Se0000: 0000000000000 00000000GET /000.gif HTTP/1.1
+Host: m00/00.0¯00000.000
+User-Agent: 00000000000
+A000000000000000000000000000000+00edit-actions-re00000000000000t: nection: close
+b 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP&1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If2Modified-SincE: Wed, 03 E= /000.Mif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 00000000000
+A00000: 000
+If-Mdified-Since: WeR,-03 F 2000 00
+If-Modified-Since: Wey,:00:000000t: p.p
+User-Axenteep-Alite:00?000:0000
+
+GET /client-tags HTTP/1.1
+Host: p.p
+User-Agent:050000
+Keep-Alite:0d?0000000000tp://config.privoxy.org/edit-actions-list?00=0000000e00&f=0e: WeR,-03 Feb 200 00
+If-Modified-Since: Wed,:00:000000GET http://config.privoxy.org/edit-actions-list?00½0000000e00&f=0 HTTP/1.1
+HoGE
+A0000: 000
+If-Modified-SincE:T /000.gif HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-Modified-Since: Wr-Agent: 000ú  ú0000
+A0K000: 000
+If-Modified-Since: WeR, 03 8eb 2000 00
+If-Modified-ince: Wed,:€ÿ:00'000øHTTP/1.1`304 00000000000:00 000
+Se0000: 0000000000000 00000000GET /000.gif HTTP/1.1
+Host: m00/00.0¯00000.000
+User-Agent: 000000.gif HTT00000000
+A000000000000000000000000000000000edit-actions-re00000000000000t: nection: close
+b 2000 00:00:00 000
+ConcE: Wed, 03 ET /000.gif HTTP/1.1
+Host: 0
+If-/edit-hctions-list?00=0000000e00&f=0 HTTP/1.1
+HoGE
+A00000: 000
+If-Modified-SincE:T /000.g‘f HTTP/1.1
+Hos…: m00000.0L00000.000
+User-Agent: 00000P00000
+A00000: 000
+If-Modified-SincE: Wed, 03 E=

@@ -1,0 +1,21 @@
+GET /eal HTTP/1.1
+Host: p.p
+User-Agent:00000C
+000000:0000
+
+øGET /eal HTTP/1.1
+Host: p.p
+User-Agent:00000C
+000000:0000
+
+øGET / HTTP/1.1
+Host: p.p
+User-Agent: 00000000000
+Accep0: 000
+
+øEC / HTTP/1.1
+Host: p.p
+User-Agent: 00000000000
+Accep0: 000
+
+ø

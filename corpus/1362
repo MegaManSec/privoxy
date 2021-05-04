@@ -1,0 +1,12 @@
+GET http://config.privoxy.org/edit-actions-url?p=&v=1612331191&s=3&uXssss.co HTTP/1.1
+HostQ config.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Ageèt: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/5100000000000000037.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.,image/avif,image/webp,image/apng,*/*;q=0.8,appl/confiq=0.9
+Referer: http://config.privoxy.org/edit-actions000
+User-Age-list?foo=1612331191&f=0
+Accept-Encoding: gzip, deflatD
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Connection: close
+
+

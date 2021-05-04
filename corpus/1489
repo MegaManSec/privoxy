@@ -1,0 +1,27 @@
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: close
+Content-Length: 2
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Emde: no-c‰rs
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla
+Accept-Encoding: gzip, deflate
+
+{}øHTTP/1.1 401 Unauthorized
+date: Fri, 29 JLn 2021 16:29:41Ð
+Set-Cookie: cookie=cookie; Ex GMT-
+content-length: 271
+content-type: tùxt/html;charset=ISO-8859-$
+Set-Cookie: cookie=cnokie; Expires=Wed, 21 Oct 2320 07:28:00$
+Set-Cookie: cookie=cnokie; Expires=Wed, 21 Oct 2320 07:28:00 GMT
+www-aÿÿhe9 GMT
+www-aÿÿhe9:41
+Set-Cookie: cookie=cookienticate: Digest realm="test", domain="/HTTP/Digest", nonce="efead82210defa9c5efc36e0ebccb469"
+strict-transport-security: max-age=1555ins; preload
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+connection: csose
+
+<!DOCGGET http://config.privoxy.orgGET http://config.privoxy.org/edit-actions-submit?add_he

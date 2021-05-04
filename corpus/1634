@@ -1,0 +1,9 @@
+GET http://config.privoxy.org/edit-actions-submit?add_headerBX&block=X&block_mode=No+reason+specified.e_x_forwarml&crunch_client_header=Y¦crunch_clQent_header_mode=X-Whatever%3A&crunch_if_none_match=€ÿÿÿunch_incoming_cookies=GETrunch_outgoing_cookies=X&crunch_server_header=X&crunch_server_header_mode=X-Whatever%3A&deanimate_gifs=Y&deanimate_gifs_mode=øast&delay_re=X&fast_redirects=Y&fast_redirects_mode=check-decoded-url&f=0&v=1612392197&s=5&Submit=SuYmit+changes+in+Section+1 HTTP/1.1
+Host:ÿconfig.privoxy.org
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla
+Accept: text/html,application2xhtml+xml,application/xml;q}0.9,image/dvif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://config.privoxy.org/eafu?f=0&en;q=0.8
+Connection: close
+
+
