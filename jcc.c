@@ -1660,7 +1660,7 @@ extern int fuzz_client_request(struct client_state *csp, char *fuzz_input_file)
    jb_err err;
 
    csp->cfd = 0; //stdin
-   csp->ip_addr_str = "255.255.255.255";
+   csp->ip_addr_str = strdup_or_die("255.255.255.255");
    if (strcmp(fuzz_input_file, "-") != 0)
    {
       log_error(LOG_LEVEL_FATAL,
@@ -1669,8 +1669,7 @@ extern int fuzz_client_request(struct client_state *csp, char *fuzz_input_file)
    csp->config->feature_flags |= RUNTIME_FEATURE_CONNECTION_KEEP_ALIVE;
 
    serve(csp);
-//   free_csp_resources(csp); //static...
-    return 0;
+   return 0;
 
 }
 #endif  /* def FUZZ */
@@ -5055,7 +5054,7 @@ static void serve(struct client_state *csp)
    mark_connection_closed(&csp->server_connection);
 #endif
 
-   //free_csp_resources(csp); now static
+   //free_csp_resources(csp); now dealt with elsewhere
    csp->flags &= ~CSP_FLAG_ACTIVE;
 
 }
@@ -5537,39 +5536,6 @@ int main(int argc, char **argv)
     * are handled when and where they occur without relying
     * on a signal.
     */
-#if !defined(_WIN32)
-{
-   int idx;
-   const int catched_signals[] = { SIGTERM, SIGINT, SIGHUP };
-
-   for (idx = 0; idx < SZ(catched_signals); idx++)
-   {
-#ifdef sun /* FIXME: Is it safe to check for HAVE_SIGSET instead? */
-      if (sigset(catched_signals[idx], sig_handler) == SIG_ERR)
-#else
-      if (signal(catched_signals[idx], sig_handler) == SIG_ERR)
-#endif /* ifdef sun */
-      {
-         log_error(LOG_LEVEL_FATAL, "Can't set signal-handler for signal %d: %E", catched_signals[idx]);
-      }
-   }
-
-   if (signal(SIGPIPE, SIG_IGN) == SIG_ERR)
-   {
-      log_error(LOG_LEVEL_FATAL, "Can't set ignore-handler for SIGPIPE: %E");
-   }
-
-}
-#else /* ifdef _WIN32 */
-# ifdef _WIN_CONSOLE
-   /*
-    * We *are* in a windows console app.
-    * Print a verbose messages about FAQ's and such
-    */
-   printf("%s", win32_blurb);
-# endif /* def _WIN_CONSOLE */
-#endif /* def _WIN32 */
-
 #ifdef FUZZ
    if (fuzz_input_type != NULL)
    {
