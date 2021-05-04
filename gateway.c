@@ -1180,11 +1180,20 @@ static jb_socket socks5_connect(const struct forward_spec *fwd,
 
    if (!err && (sbuf[1] == '\x02'))
    {
-      /* check cbuf overflow */
-      size_t auth_len = strlen(fwd->auth_username) + strlen(fwd->auth_password) + 3;
-      if (auth_len > sizeof(cbuf))
+      if (fwd->auth_username && fwd->auth_password)
       {
-         errstr = "SOCKS5 username and/or password too long";
+         /* check cbuf overflow */
+         size_t auth_len = strlen(fwd->auth_username) + strlen(fwd->auth_password) + 3;
+         if (auth_len > sizeof(cbuf))
+         {
+            errstr = "SOCKS5 username and/or password too long";
+            err = 1;
+         }
+      }
+      else
+      {
+         errstr = "SOCKS5 server requested authentication while "
+            "no credentials are configured";
          err = 1;
       }
 
@@ -1351,7 +1360,7 @@ static jb_socket socks5_connect(const struct forward_spec *fwd,
          }
          else if (sbuf[3] != '\x01')
          {
-             errstr = "SOCKS5 reply contains unsupported address type";
+            errstr = "SOCKS5 reply contains unsupported address type";
          }
          if (errstr == NULL)
          {

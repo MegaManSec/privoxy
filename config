@@ -1,4 +1,4 @@
-#        Sample Configuration File for Privoxy 3.0.30
+#        Sample Configuration File for Privoxy 3.0.33
 #
 # Copyright (C) 2001-2021 Privoxy Developers https://www.privoxy.org/
 #
@@ -592,7 +592,7 @@ filterfile user.filter      # User customizations
 #      each request as it happens. 1, 1024, 4096 and 8192 are
 #      recommended so that you will notice when things go wrong. The
 #      other levels are probably only of interest if you are hunting
-#      down a specific problem. They can produce a hell of an output
+#      down a specific problem. They can produce a lot of output
 #      (especially 16).
 #
 #      If you are used to the more verbose settings, simply enable
@@ -776,8 +776,8 @@ single-threaded 1
 #      consider using access control lists (ACL's, see below), and/or
 #      a firewall.
 #
-#      If you open Privoxy to untrusted users, you will also want to
-#      make sure that the following actions are disabled:
+#      If you open Privoxy to untrusted users, you should also make
+#      sure that the following actions are disabled:
 #      enable-edit-actions and enable-remote-toggle
 #
 #  Example:
@@ -1471,8 +1471,8 @@ cors-allowed-origin p.p
 #      might want to make some exceptions:
 #
 #        forward         192.168.*.*/     .
-#        forward            10.*.*.*/     .
-#        forward           127.*.*.*/     .
+#        forward          10.*.*.*/       .
+#        forward         127.*.*.*/       .
 #
 #      Unencrypted connections to systems in these address ranges
 #      will be as (un)secure as the local network is, but the
@@ -1485,7 +1485,7 @@ cors-allowed-origin p.p
 #      network by using their names, you will need additional
 #      exceptions that look like this:
 #
-#       forward           localhost/     .
+#        forward           localhost/     .
 #
 #
 #  5.3. forwarded-connect-retries
@@ -1845,11 +1845,11 @@ tolerate-pipelining 1
 #      speedups. There are also a few privacy implications you should
 #      be aware of.
 #
-#      If this option is effective, outgoing connections are shared
+#      If this option is enabled, outgoing connections are shared
 #      between clients (if there are more than one) and closing the
-#      browser that initiated the outgoing connection does no longer
-#      affect the connection between Privoxy and the server unless
-#      the client's request hasn't been completed yet.
+#      browser that initiated the outgoing connection does not affect
+#      the connection between Privoxy and the server unless the
+#      client's request hasn't been completed yet.
 #
 #      If the outgoing connection is idle, it will not be closed
 #      until either Privoxy's or the server's timeout is reached.
@@ -1931,11 +1931,9 @@ socket-timeout 300
 #
 #      128
 #
-#  Effect if unset:
+#  Notes:
 #
 #      Connections are served until a resource limit is reached.
-#
-#  Notes:
 #
 #      Privoxy creates one thread (or process) for every incoming
 #      client connection that isn't rejected based on the access
@@ -2183,19 +2181,18 @@ enable-compression 1
 #
 #  Examples:
 #
-#          # Best speed (compared to the other levels)
-#          compression-level 1
+#        # Best speed (compared to the other levels)
+#        compression-level 1
 #
-#          # Best compression
-#          compression-level 9
+#        # Best compression
+#        compression-level 9
 #
-#          # No compression. Only useful for testing as the added header
-#          # slightly increases the amount of data that has to be sent.
-#          # If your benchmark shows that using this compression level
-#          # is superior to using no compression at all, the benchmark
-#          # is likely to be flawed.
-#          compression-level 0
-#
+#        # No compression. Only useful for testing as the added header
+#        # slightly increases the amount of data that has to be sent.
+#        # If your benchmark shows that using this compression level
+#        # is superior to using no compression at all, the benchmark
+#        # is likely to be flawed.
+#        compression-level 0
 #
 compression-level 1
 #
@@ -2399,7 +2396,6 @@ client-tag-lifetime 60
 #            # IP address with a X-Forwarded-For header.
 #            trust-x-forwarded-for 1
 trust-x-forwarded-for 1
-#
 #
 #
 #  6.19. receive-buffer-size
@@ -2816,40 +2812,28 @@ trusted-cas-file ca-cert-key.pem
 #
 #log-buffer-size 1
 #
-#
-#
 #  log-max-lines is the maximum number of lines held in the log
 #  buffer. See above.
 #
 #log-max-lines 200
-#
-#
 #
 #  If "log-highlight-messages" is set to 1, Privoxy will highlight
 #  portions of the log messages with a bold-faced font:
 #
 #log-highlight-messages 1
 #
-#
-#
 #  The font used in the console window:
 #
 #log-font-name Comic Sans MS
-#
-#
 #
 #  Font size used in the console window:
 #
 #log-font-size 8
 #
-#
-#
 #  "show-on-task-bar" controls whether or not Privoxy will appear as
 #  a button on the Task bar when minimized:
 #
 #show-on-task-bar 0
-#
-#
 #
 #  If "close-button-minimizes" is set to 1, the Windows close button
 #  will minimize Privoxy instead of closing the program (close with
@@ -2857,13 +2841,10 @@ trusted-cas-file ca-cert-key.pem
 #
 #close-button-minimizes 1
 #
-#
-#
 #  The "hide-console" option is specific to the MS-Win console
 #  version of Privoxy. If this option is used, Privoxy will
 #  disconnect from and hide the command console.
 #
 #hide-console
-#
 #
 #

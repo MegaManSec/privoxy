@@ -290,8 +290,8 @@ extern void free_certificate_chain(struct client_state *csp)
    /* Cleaning buffers */
    memset(csp->server_certs_chain.info_buf, 0,
       sizeof(csp->server_certs_chain.info_buf));
-   memset(csp->server_certs_chain.file_buf, 0,
-      sizeof(csp->server_certs_chain.file_buf));
+   freez(csp->server_certs_chain.file_buf);
+
    csp->server_certs_chain.next = NULL;
 
    /* Freeing memory in whole linked list */
@@ -299,6 +299,11 @@ extern void free_certificate_chain(struct client_state *csp)
    {
       struct certs_chain *cert_for_free = cert;
       cert = cert->next;
+
+      /* Cleaning buffers */
+      memset(cert_for_free->info_buf, 0, sizeof(cert_for_free->info_buf));
+      freez(cert_for_free->file_buf);
+
       freez(cert_for_free);
    }
 }
@@ -337,7 +342,7 @@ extern void ssl_send_certificate_error(struct client_state *csp)
       "<p><a href=\"https://" CGI_SITE_2_HOST "/\">Privoxy</a> was unable "
       "to securely connect to the destination server.</p>"
       "<p>Reason: ";
-   const char message_end[] = "</body></html>\r\n\r\n";
+   const char message_end[] = "</body></html>\n";
    char reason[INVALID_CERT_INFO_BUF_SIZE];
    memset(reason, 0, sizeof(reason));
 
@@ -404,6 +409,16 @@ extern void ssl_send_certificate_error(struct client_state *csp)
       cert = cert->next;
    }
    strlcat(message, message_end, message_len);
+
+   if (0 == strcmpic(csp->http->gpc, "HEAD"))
+   {
+      /* Cut off body */
+      char *header_end = strstr(message, "\r\n\r\n");
+      if (header_end != NULL)
+      {
+         header_end[3] = '\0';
+      }
+   }
 
    /*
     * Sending final message to client

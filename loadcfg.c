@@ -140,7 +140,7 @@ static struct file_list *current_configfile = NULL;
 #define hash_cipher_list                 1225729316U /* "cipher-list" */
 #define hash_client_header_order         2701453514U /* "client-header-order" */
 #define hash_client_specific_tag         3353703383U /* "client-specific-tag" */
-#define hash_client_tag_lifetime          647957580U /* "client-tag-lifetime" */
+#define hash_client_tag_lifetime         3239141416U /* "client-tag-lifetime" */
 #define hash_compression_level           2464423563U /* "compression-level" */
 #define hash_confdir                        1978389U /* "confdir" */
 #define hash_connection_sharing          1348841265U /* "connection-sharing" */
@@ -1592,7 +1592,7 @@ struct configuration_spec * load_config(void)
             if (config->receive_buffer_size < BUFFER_SIZE)
             {
                log_error(LOG_LEVEL_INFO,
-                  "receive-buffer-size %lu seems low and may cause problems."
+                  "receive-buffer-size %lu seems low and may cause problems. "
                   "Consider setting it to at least %d.",
                   config->receive_buffer_size, BUFFER_SIZE);
             }
