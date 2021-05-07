@@ -89,14 +89,12 @@ static void validate_tag_list(struct client_specific_tag *enabled_tags)
    {
       if (enabled_tags->name == NULL)
       {
-         assert(enabled_tags->name != NULL);
          log_error(LOG_LEVEL_FATAL, "validate_tag_list(): Tag without name detected");
       }
       if (enabled_tags->next != NULL)
       {
          if (enabled_tags->next->prev != enabled_tags)
          {
-            assert(enabled_tags->next->prev == enabled_tags);
             log_error(LOG_LEVEL_FATAL, "validate_tag_list(): Invalid backlink detected");
          }
       }
@@ -124,7 +122,6 @@ static jb_err validate_requested_tags()
    {
       if (requested_tag->client == NULL)
       {
-         assert(requested_tag->client != NULL);
          log_error(LOG_LEVEL_FATAL, "validate_tag_list(): Client not registered");
       }
       validate_tag_list(requested_tag->tags);
@@ -132,7 +129,6 @@ static jb_err validate_requested_tags()
       {
          if (requested_tag->next->prev != requested_tag)
          {
-            assert(requested_tag->next->prev == requested_tag);
             log_error(LOG_LEVEL_FATAL, "validate_requested_tags(): Invalid backlink detected");
          }
       }

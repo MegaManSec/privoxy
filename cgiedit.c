@@ -2359,7 +2359,7 @@ jb_err cgi_edit_actions_list(struct client_state *csp,
                      return JB_ERR_MEMORY;
                   }
 
-                  if (!err) err = template_fill(&s, section_exports);
+                  err = template_fill(&s, section_exports);
                   free_map(section_exports);
                   if (!err) err = string_join(&buttons, s);
                }

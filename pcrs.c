@@ -1217,6 +1217,11 @@ pcrs_job *pcrs_compile_dynamic_command(char *pcrs_command, const struct pcrs_var
       v++;
    }
 
+   if(pcrs_command == NULL)
+   {
+      return NULL;
+   }
+
    job = pcrs_compile_command(pcrs_command, error);
    if (pcrs_command != original_pcrs_command)
    {

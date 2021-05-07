@@ -312,7 +312,6 @@ int strcmpic(const char *s1, const char *s2)
  *********************************************************************/
 int strncmpic(const char *s1, const char *s2, size_t n)
 {
-   if (n <= (size_t)0) return(0);
    if (!s1) s1 = "";
    if (!s2) s2 = "";
 
@@ -322,8 +321,6 @@ int strncmpic(const char *s1, const char *s2, size_t n)
       {
          break;
       }
-
-      if (--n <= (size_t)0) break;
 
       s1++, s2++;
    }

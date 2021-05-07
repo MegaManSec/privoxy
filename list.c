@@ -337,7 +337,6 @@ jb_err enlist_unique(struct list *the_list, const char *str,
    assert(the_list);
    assert(list_is_valid(the_list));
    assert(str);
-   assert(num_significant_chars >= 0);
    assert(num_significant_chars <= strlen(str));
 
    if (num_significant_chars > 0)

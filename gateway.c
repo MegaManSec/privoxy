@@ -1253,7 +1253,6 @@ static jb_socket socks5_connect(const struct forward_spec *fwd,
    cbuf[client_pos++] = '\x00'; /* Reserved, must be 0x00 */
    cbuf[client_pos++] = '\x03'; /* Address is domain name */
    cbuf[client_pos++] = (char)(hostlen & 0xffu);
-   assert(sizeof(cbuf) - client_pos > (size_t)255);
    /* Using strncpy because we really want the nul byte padding. */
    strncpy(cbuf + client_pos, target_host, sizeof(cbuf) - client_pos - 1);
    client_pos += (hostlen & 0xffu);

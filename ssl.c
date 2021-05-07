@@ -2007,10 +2007,12 @@ static int *get_ciphersuites_from_string(const char *parameter_string)
    do
    {
       item_end = strchr(ciphersuites_index, separator);
-      if (item_end != NULL)
+      if (item_end == NULL)
       {
-         *item_end = '\0';
+         break;
       }
+
+      *item_end = '\0';
 
       ciphersuite_ids[index] =
          mbedtls_ssl_get_ciphersuite_id(ciphersuites_index);

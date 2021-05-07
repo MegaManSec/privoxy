@@ -1273,11 +1273,11 @@ jb_err cgi_show_status(struct client_state *csp,
 
    if (local_urls_read == 0)
    {
-      if (!err) err = map_block_killer(exports, "have-stats");
+      err = map_block_killer(exports, "have-stats");
    }
    else
    {
-      if (!err) err = map_block_killer(exports, "have-no-stats");
+      err = map_block_killer(exports, "have-no-stats");
 
       perc_rej = (float)local_urls_rejected * 100.0F /
             (float)local_urls_read;
