@@ -34,7 +34,12 @@ In total, 12 bugs were found:
 10) [88d5b57a4a639f88c937e7b22f6fe976b4380ce9](https://www.privoxy.org/gitweb/?p=privoxy.git;a=commit;h=88d5b57a4a639f88c937e7b22f6fe976b4380ce9) -- DoS (only in fuzzing mode)
 11) [bc7cc845a82203f50e3fc5c1bd0dca01571749b9](https://www.privoxy.org/gitweb/?p=privoxy.git;a=commit;h=bc7cc845a82203f50e3fc5c1bd0dca01571749b9) --- Incorrect config loading
 
+A second round of fuzzing occured, looking for memory leaks. 3 issues were found:
+1) CVE-2021-44540
+2) CVE-2021-44541
+3) CVE-2021-44542
 
-Most of these bugs were exploitable by remote webpages, and more information about them can be found on our [blog](https://blogs.opera.com/security/2021/05/fuzzing-http-proxies-privoxy-part-1/).
+
+Most of these bugs were exploitable by remote webpages, and more information about them can be found on our our [post #1](https://blogs.opera.com/security/2021/05/fuzzing-http-proxies-privoxy-part-1/) and [post #2](https://blogs.opera.com/security/2022/01/fuzzing-http-proxies-privoxy-part-3/).
 
 A big thank you to ***[Fabian Keil](https://www.fabiankeil.de/)*** for his incredibly quick patches and continued communication during this testing.
